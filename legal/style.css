@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #6366f1;
+    --bg-dark: #0f172a;
+    --bg-card: rgba(30, 41, 59, 0.7);
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent-glow: rgba(99, 102, 241, 0.15);
+    --border-color: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    line-height: 1.6;
+    padding: 2rem 1rem;
+    background-image: 
+        radial-gradient(circle at 10% 20%, var(--accent-glow) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, var(--accent-glow) 0%, transparent 40%);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--bg-card);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-color);
+    border-radius: 24px;
+    padding: 3rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #818cf8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+    color: #cbd5e1;
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 1.5rem;
+    background: var(--primary-color);
+    margin-right: 12px;
+    border-radius: 2px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.75rem;
+    color: #e2e8f0;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    color: var(--text-secondary);
+}
+
+ul {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+    color: var(--text-secondary);
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+strong {
+    color: #f1f5f9;
+    font-weight: 600;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--border-color);
+    margin: 2rem 0;
+}
+
+.footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding: 1.5rem;
+        border-radius: 16px;
+    }
+    
+    h1 {
+        font-size: 1.875rem;
+    }
+}
