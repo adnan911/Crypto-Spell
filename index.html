@@ -1,0 +1,810 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>CryptoSpell - Level Challenge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@800&family=Space+Mono:wght@400;700&family=Press+Start+2P&family=Fredoka+One&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <style>
+      :root {
+        /* Static variables */
+        --radius-ui: 1.5rem;
+        --radius-btn: 1.5rem;
+        --font-main: "Inter", sans-serif;
+        --font-mono: "JetBrains Mono", monospace;
+        --font-hacker: "Space Mono", monospace;
+
+        /* Theme-dependent colors (set by JavaScript) */
+        --theme-bg-primary: #1a0a2e;
+        --theme-bg-secondary: #2d1b4e;
+        --theme-bg-tertiary: #4a2c7c;
+        --theme-accent-1: #ec4899;
+        --theme-accent-2: #38bdf8;
+        --theme-accent-3: #fbbf24;
+        --theme-text: #ffffff;
+        --theme-text-muted: rgba(255, 255, 255, 0.6);
+        --theme-glass: rgba(255, 255, 255, 0.08);
+        --theme-glass-border: rgba(255, 255, 255, 0.15);
+        --theme-glass-accent: rgba(139, 92, 246, 0.15);
+        --theme-glass-accent-border: rgba(139, 92, 246, 0.3);
+
+        /* Theme gradients */
+        --theme-gradient-bg: linear-gradient(
+          135deg,
+          #1a0a2e 0%,
+          #2d1b4e 30%,
+          #4a2c7c 60%,
+          #6b21a8 100%
+        );
+        --theme-gradient-overlay:
+          radial-gradient(
+            circle at 10% 20%,
+            rgba(236, 72, 153, 0.3) 0%,
+            transparent 25%
+          ),
+          radial-gradient(
+            circle at 90% 80%,
+            rgba(56, 189, 248, 0.25) 0%,
+            transparent 30%
+          ),
+          radial-gradient(
+            circle at 50% 50%,
+            rgba(124, 58, 237, 0.2) 0%,
+            transparent 40%
+          );
+        --theme-gradient-btn1: linear-gradient(135deg, #38bdf8, #0891b2);
+        --theme-gradient-btn2: linear-gradient(135deg, #8b5cf6, #6d28d9);
+        --theme-gradient-btn3: linear-gradient(135deg, #fbbf24, #f59e0b);
+        --theme-gradient-progress: linear-gradient(to right, #ec4899, #38bdf8);
+
+        /* Theme orb colors */
+        --theme-orb-1: linear-gradient(135deg, #ec4899, #f472b6);
+        --theme-orb-2: linear-gradient(135deg, #38bdf8, #0891b2);
+        --theme-orb-3-border: rgba(56, 189, 248, 0.4);
+        --theme-orb-4-border: rgba(236, 72, 153, 0.5);
+      }
+
+      body {
+        font-family: var(--font-main);
+        background: var(--theme-gradient-bg);
+        color: var(--theme-text);
+        overflow: hidden;
+        touch-action: manipulation;
+        user-select: none;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+      }
+
+      /* Hide scrollbars globally */
+      ::-webkit-scrollbar {
+        display: none;
+        width: 0px;
+        background: transparent;
+      }
+      * {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+
+      /* Cosmic Background Decorations */
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background: var(--theme-gradient-overlay);
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      #root {
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+      }
+
+      .tier-black-swan {
+        font-family: var(--font-hacker);
+      }
+
+      /* Floating Decorative Elements */
+      .floating-orb {
+        position: fixed;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .orb-1 {
+        width: 120px;
+        height: 120px;
+        background: var(--theme-orb-1);
+        top: 15%;
+        left: -30px;
+        opacity: 0.6;
+      }
+
+      .orb-2 {
+        width: 80px;
+        height: 80px;
+        background: var(--theme-orb-2);
+        bottom: 20%;
+        right: -20px;
+        opacity: 0.5;
+      }
+
+      .orb-3 {
+        width: 60px;
+        height: 60px;
+        border: 4px solid var(--theme-orb-3-border);
+        background: transparent;
+        top: 60%;
+        left: 10%;
+      }
+
+      .orb-4 {
+        width: 40px;
+        height: 40px;
+        border: 3px solid var(--theme-orb-4-border);
+        background: transparent;
+        top: 30%;
+        right: 15%;
+      }
+
+      /* High-Tier Distortions */
+
+      /* High-Tier Distortions */
+      .effect-pixelated {
+        filter: blur(1px) contrast(1.2);
+      }
+
+      .effect-bloody {
+        filter: sepia(1) saturate(10) hue-rotate(-50deg) brightness(0.7)
+          drop-shadow(0 0 20px #ff0000);
+      }
+
+      @keyframes lvl-glitch {
+        0%, 88%, 100% { transform: translate(0); opacity: 1; }
+        90% { transform: translate(-2px, 1px) skewX(2deg); opacity: 0.9; }
+        92% { transform: translate(2px, -1px) skewX(-2deg); opacity: 1; }
+        94% { transform: translate(-1px, 0); opacity: 0.85; }
+        96% { transform: translate(0); opacity: 1; }
+      }
+
+      /* Brutalism Theme Overrides */
+
+      /* Brutalism Theme Overrides */
+      :root.theme-brutalism {
+        --radius-ui: 0;
+        --radius-btn: 2px;
+        --font-main: "JetBrains Mono", monospace;
+      }
+
+      /* Hard Shadows for anything with a shadow class */
+      .theme-brutalism [class*="shadow-"] {
+        box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1) !important;
+      }
+
+      /* Reset border radius globally for this theme */
+      .theme-brutalism * {
+        border-radius: 0 !important;
+      }
+
+      /* Specific button styles to ensure visibility */
+      .theme-brutalism button {
+        border-color: #000000 !important; /* Override transparent base */
+        text-transform: uppercase;
+        font-weight: 800;
+      }
+
+      .theme-brutalism .floating-orb {
+        display: none !important;
+      }
+
+      /* Arcade Pixel Theme Overrides */
+      :root.theme-pixel {
+        --radius-ui: 4px;
+        --radius-btn: 4px;
+        --font-main: "Press Start 2P", cursive;
+      }
+
+      .theme-pixel * {
+        image-rendering: pixelated;
+        letter-spacing: -0.5px; /* Tighten up huge font */
+      }
+
+      .theme-pixel body {
+        font-size: 0.65rem; /* Aggressive scale down for Press Start 2P */
+      }
+
+      .theme-pixel body::before {
+        background-size: 20px 20px !important;
+        background-position:
+          0 0,
+          10px 10px;
+        opacity: 0.2;
+      }
+
+      .theme-pixel .glass {
+        border-width: 4px;
+        box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.4);
+        border-radius: 4px;
+        background: rgba(45, 27, 78, 0.9) !important;
+      }
+
+      .theme-pixel button {
+        box-shadow: 0 6px 0 rgba(0, 0, 0, 0.5);
+        border-color: white !important;
+        text-transform: uppercase;
+      }
+
+      .theme-pixel button:active {
+        transform: translateY(4px);
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+      }
+
+      .theme-pixel .floating-orb {
+        border-radius: 0;
+        filter: blur(0px);
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+      }
+
+      /* Coin pixel fix */
+      .theme-pixel .coin-badge {
+        border-radius: 4px;
+        border: 2px solid #fff;
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+      }
+
+
+      .blood-drip {
+        position: absolute;
+        width: 4px;
+        background: #ff0000;
+        border-radius: 0 0 12px 12px;
+        box-shadow: 0 0 8px #ff0000;
+      }
+
+
+
+      .particle-coin {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: #fbbf24;
+        border-radius: 50%;
+        z-index: 50;
+        pointer-events: none;
+      }
+
+      /* New Button Styles - Theme Aware */
+      .btn-theme-1 {
+        background: var(--theme-gradient-btn1);
+        border: 2px solid transparent; /* Prevent layout shift */
+        box-shadow:
+          0 6px 0 rgba(0, 0, 0, 0.3),
+          0 0 20px var(--theme-orb-3-border);
+        color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .btn-theme-1:active {
+        box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+      }
+
+      .btn-theme-2 {
+        background: var(--theme-gradient-btn2);
+        border: 2px solid transparent;
+        box-shadow:
+          0 6px 0 rgba(0, 0, 0, 0.3),
+          0 0 20px var(--theme-orb-4-border);
+        color: #ffffff;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .btn-theme-2:active {
+        box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+      }
+
+      .btn-theme-3 {
+        background: var(--theme-gradient-btn3);
+        border: 2px solid transparent;
+        box-shadow:
+          0 6px 0 rgba(0, 0, 0, 0.3),
+          0 0 20px rgba(251, 191, 36, 0.4);
+        color: #1a0a2e;
+      }
+
+      .btn-theme-3:active {
+        box-shadow: 0 3px 0 rgba(0, 0, 0, 0.3);
+      }
+
+      /* Generic Green - Keep for now or map to success */
+      .btn-green {
+        background: linear-gradient(135deg, #10b981, #059669);
+        border: 2px solid transparent;
+        box-shadow:
+          0 6px 0 #064e3b,
+          0 0 20px rgba(16, 185, 129, 0.3);
+      }
+
+      .btn-green:active {
+        box-shadow: 0 3px 0 #064e3b;
+      }
+
+
+
+      .glass {
+        background: var(--theme-glass);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid var(--theme-glass-border);
+      }
+
+      .glass-accent {
+        background: var(--theme-glass-accent);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid var(--theme-glass-accent-border);
+      }
+
+      /* Confetti animation */
+
+
+      /* Letter pop animation */
+
+      /* Success glow pulse */
+
+      /* Hint reveal animation */
+
+      /* Coin Badge */
+      .coin-badge {
+        background: var(--theme-gradient-btn3);
+        box-shadow: 0 0 15px rgba(251, 191, 36, 0.4);
+      }
+      /* Techno Theme Overrides */
+      :root.theme-techno {
+        --radius-ui: 4px;
+        --radius-btn: 2px;
+        --font-main: "Space Mono", monospace;
+      }
+
+      .theme-techno .glass {
+        border: 1px solid rgba(0, 255, 204, 0.4);
+        box-shadow:
+          0 0 15px rgba(0, 255, 204, 0.15),
+          inset 0 0 20px rgba(0, 255, 204, 0.05);
+        background: rgba(0, 20, 20, 0.9);
+      }
+
+      /* Scanning line overlay */
+      .theme-techno body::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background:
+          linear-gradient(transparent 50%, rgba(0, 255, 204, 0.02) 50%),
+          linear-gradient(
+            90deg,
+            rgba(255, 0, 0, 0.03),
+            rgba(0, 255, 0, 0.01),
+            rgba(0, 0, 255, 0.03)
+          );
+        background-size:
+          100% 3px,
+          6px 100%;
+        pointer-events: none;
+        z-index: 999;
+      }
+
+      /* Glitch Theme Redesign v2 */
+      :root.theme-glitch {
+        --radius-ui: 12px;
+        --radius-btn: 30px;
+        --font-main: "Segoe UI", "Courier New", monospace;
+        --glitch-pink: #f0f;
+        --glitch-cyan: #0ff;
+      }
+
+      /* CRT Scanline & Flicker Effect */
+      .theme-glitch body::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          rgba(18, 16, 16, 0) 50%,
+          rgba(0, 0, 0, 0.1) 50%
+        );
+        background-size: 100% 4px;
+        z-index: 10;
+        pointer-events: none;
+      }
+
+      /* Text Glitch Effect */
+      .theme-glitch h1,
+      .theme-glitch h2,
+      .theme-glitch .text-4xl,
+      .theme-glitch .text-3xl {
+        position: relative;
+        color: white;
+        letter-spacing: -2px;
+        animation: none; /* Reset previous */
+      }
+
+      .theme-glitch h1::before,
+      .theme-glitch h1::after {
+        content: attr(
+          data-text
+        ); /* Fallback or specific implementation needed */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+      }
+
+      /* Create pseudo-elements for existing text content manually if data-text isn't available? 
+         Actually, simple text-shadow is safer for global React compatibility without refactoring every component to add data-text attributes.
+         Let's stick to a robust text-shadow animation that mimics the clip-path effect. */
+
+      .theme-glitch h1,
+      .theme-glitch h2 {
+        text-shadow:
+          2px 0 var(--glitch-pink),
+          -2px 0 var(--glitch-cyan);
+      }
+
+      /* Glass Panels */
+      .theme-glitch .glass {
+        background: radial-gradient(circle, #1a1a1a 0%, #000 100%) !important;
+        border: 2px solid #222;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+      }
+
+      /* Button Styles */
+      .theme-glitch button {
+        border-radius: 30px;
+        border-color: #444 !important; /* Update to color only */
+        background: #000;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .theme-glitch button:hover {
+        background: #222 !important;
+        box-shadow: 0 0 15px var(--glitch-cyan);
+      }
+
+      /* Main action button overrides would need specific targeting or strict themes.ts button1 usage */
+
+
+      /* --- Plan B: 500-Level Visual Filters --- */
+      .filter-pixelate {
+        image-rendering: pixelated;
+        filter: contrast(1.2) saturate(1.2);
+      }
+
+      .filter-glitch {
+        filter: contrast(1.5);
+      }
+
+      .filter-invert {
+        filter: invert(1) hue-rotate(180deg);
+      }
+
+      .filter-blur {
+        filter: blur(4px);
+      }
+
+      .filter-silhouette {
+        filter: brightness(0) drop-shadow(0 0 5px rgba(255, 215, 0, 0.5)); /* Gold shadow */
+      }
+
+      .filter-glass {
+        opacity: 0.6;
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+        backdrop-filter: blur(5px);
+      }
+
+      .filter-void {
+        filter: grayscale(1) brightness(0.5);
+      }
+      
+      /* Constructivist Theme Overrides */
+      :root.theme-constructivist {
+        --radius-ui: 0;
+        --radius-btn: 0;
+        --font-main: "Rajdhani", sans-serif;
+      }
+      .theme-constructivist body::before {
+        background: repeating-linear-gradient(45deg, rgba(230,0,0,0.05) 0px, rgba(230,0,0,0.05) 40px, transparent 40px, transparent 80px) !important;
+      }
+      .theme-constructivist .glass {
+        border-width: 4px;
+        border-color: #e60000 !important;
+        box-shadow: 10px 10px 0px #000;
+        background: #111 !important;
+      }
+      .theme-constructivist button {
+        text-transform: uppercase;
+        font-weight: 900;
+        clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+      }
+
+      /* De Stijl Theme Overrides */
+      :root.theme-de-stijl {
+        --radius-ui: 0;
+        --radius-btn: 0;
+        --font-main: "Inter", sans-serif;
+      }
+      .theme-de-stijl body::before {
+        background-color: #fff !important;
+        background-image: 
+          linear-gradient(#000 2px, transparent 2px),
+          linear-gradient(90deg, #000 2px, transparent 2px) !important;
+        background-size: 80px 80px !important;
+        opacity: 0.1 !important;
+      }
+      .theme-de-stijl .glass {
+        border: 4px solid #000;
+        background: #fff !important;
+        box-shadow: 12px 12px 0px #ff0000, -12px -12px 0px #0066ff;
+      }
+      .theme-de-stijl button {
+        border: 3px solid #000 !important;
+        box-shadow: 4px 4px 0px #000;
+      }
+
+      /* Pop Art Theme Overrides */
+      :root.theme-pop-art {
+        --radius-ui: 20px;
+        --radius-btn: 99px;
+        --font-main: "Fredoka One", cursive;
+      }
+      .theme-pop-art body::before {
+        background-image: radial-gradient(#000 20%, transparent 20%) !important;
+        background-size: 20px 20px !important;
+        opacity: 0.05 !important;
+      }
+      .theme-pop-art .glass {
+        border: 4px solid #000;
+        background: #fff !important;
+        box-shadow: 8px 8px 0px #000;
+      }
+      .theme-pop-art button {
+        border: 3px solid #000 !important;
+        box-shadow: 4px 4px 0px #000;
+        transform: rotate(-1deg);
+      }
+      .theme-pop-art button:hover {
+        transform: rotate(1deg) scale(1.05);
+      }
+
+      /* Psychedelic Theme Overrides */
+      :root.theme-psychedelic {
+        --radius-ui: 40px;
+        --radius-btn: 40px;
+      }
+      .theme-psychedelic body::before {
+        background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00) !important;
+        background-size: 400% 400% !important;
+        animation: psychedelic-bg 15s ease infinite !important;
+        opacity: 0.1 !important;
+      }
+      @keyframes psychedelic-bg {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+      }
+      .theme-psychedelic .glass {
+        border-radius: 40px 10px 40px 10px !important;
+        border: 3px solid rgba(255, 255, 255, 0.4);
+        box-shadow: 0 0 30px rgba(255, 0, 255, 0.3);
+      }
+
+      /* Retro Futurism Theme Overrides */
+      :root.theme-retro-futurism {
+        --radius-ui: 60px 10px;
+        --radius-btn: 30px;
+        --font-main: "Orbitron", sans-serif;
+      }
+      .theme-retro-futurism body::before {
+        background: radial-gradient(circle at 50% 120%, rgba(255, 77, 0, 0.1), transparent) !important;
+      }
+      .theme-retro-futurism .glass {
+        background: rgba(232, 219, 197, 0.9) !important;
+        border: 2px solid #ff4d00;
+        box-shadow: 0 0 40px rgba(255, 77, 0, 0.15), inset 0 0 20px rgba(255,255,255,0.5);
+      }
+      .theme-retro-futurism button {
+        border: 2px solid #ff4d00 !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+
+
+      /* Space Theme Button */
+      .btn-space {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
+        height: 60px;
+        background-size: 300% 300%;
+        cursor: pointer;
+        backdrop-filter: blur(1rem);
+        border-radius: 5rem;
+        border: double 4px transparent;
+        background-image:
+          linear-gradient(#212121, #212121),
+          linear-gradient(
+            137.48deg,
+            #ffdb3b 10%,
+            #fe53bb 45%,
+            #8f51ea 67%,
+            #0044ff 87%
+          );
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+      }
+
+      .btn-space #container-stars {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        backdrop-filter: blur(1rem);
+        border-radius: 5rem;
+      }
+
+      .btn-space strong {
+        z-index: 2;
+        font-family: var(--font-main);
+        letter-spacing: 5px;
+        color: #ffffff;
+        text-shadow: 0 0 4px white;
+      }
+
+      .btn-space #glow {
+        position: absolute;
+        display: flex;
+        width: 100%;
+      }
+
+      .btn-space .circle {
+        width: 100%;
+        height: 30px;
+        filter: blur(2rem);
+        z-index: -1;
+      }
+
+      .btn-space .circle:nth-of-type(1) {
+        background: rgba(254, 83, 186, 0.636);
+      }
+
+      .btn-space .circle:nth-of-type(2) {
+        background: rgba(142, 81, 234, 0.704);
+      }
+
+      .btn-space:hover #container-stars {
+        z-index: 1;
+        background-color: #212121;
+      }
+
+
+      .btn-space:active {
+        border: double 4px #fe53bb;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        animation: none;
+      }
+
+      .btn-space:active .circle {
+        background: #fe53bb;
+      }
+
+      .btn-space #stars {
+        position: absolute;
+        background: transparent;
+        width: 200rem;
+        height: 200rem;
+      }
+
+      .btn-space #stars::after {
+        content: "";
+        position: absolute;
+        top: -10rem;
+        left: -100rem;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(#ffffff 1px, transparent 1%);
+        background-size: 50px 50px;
+      }
+
+      .btn-space #stars::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -50%;
+        width: 170%;
+        height: 500%;
+        background-image: radial-gradient(#ffffff 1px, transparent 1%);
+        background-size: 50px 50px;
+        opacity: 0.5;
+      }
+
+
+
+      .premium-bg {
+        min-height: 100vh;
+        background: var(--theme-gradient-overlay), var(--theme-gradient-bg) !important;
+        background-size: 200% 200%;
+        position: relative;
+        overflow: hidden;
+      }
+
+
+      .premium-bg::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+        opacity: 0.05;
+        mix-blend-mode: overlay;
+        pointer-events: none;
+      }
+
+      /* Dynamic Theme Styling */
+      .glass-panel {
+        background: var(--theme-glass);
+        backdrop-filter: blur(12px);
+        border: 1px solid var(--theme-glass-border);
+      }
+      .glossy-card {
+        background: linear-gradient(135deg, var(--theme-glass) 0%, var(--theme-glass-accent) 100%);
+        border: 1px solid var(--theme-glass-border);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      }
+      .glow-button {
+        box-shadow: 0 0 20px var(--theme-accent-1);
+      }
+
+
+      .crypto-symbol {
+        will-change: transform, opacity;
+        text-shadow: 0 0 10px var(--theme-accent-2), 0 0 20px var(--theme-accent-1);
+        pointer-events: none;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

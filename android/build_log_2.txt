@@ -1,0 +1,754 @@
+Initialized native services in: C:\Users\adnan\.gradle\native
+Initialized jansi services in: C:\Users\adnan\.gradle\native
+Found daemon DaemonInfo{pid=29448, address=[9571e8ef-352a-4353-ba66-33b94c6757ac port:59298, addresses:[/127.0.0.1]], state=Idle, lastBusy=1773303357070, context=DefaultDaemonContext[uid=cfa661ed-be47-4e91-b3ea-7d9a3b5a0f0c,javaHome=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot,javaVersion=17,javaVendor=Microsoft,daemonRegistryDir=C:\Users\adnan\.gradle\daemon,pid=29448,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot (no JDK specified, using current Java home), daemonOpts=[-Xmx1536m, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=cfa661ed-be47-4e91-b3ea-7d9a3b5a0f0c,javaHome=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot,javaVersion=17,javaVendor=Microsoft,daemonRegistryDir=C:\Users\adnan\.gradle\daemon,pid=29448,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 6656). The daemon log file: C:\Users\adnan\.gradle\daemon\8.14.3\daemon-6656.out.log
+Starting 6th build in daemon [uptime: 5 mins 0.547 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 1.5 GiB]
+Using 16 worker leases.
+Now considering [D:\DarkDEV\cryptospell\cryptospell game - Copy\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\settings.gradle'.
+Projects loaded. Root project using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\build.gradle'.
+Included projects: [root project 'android', project ':app', project ':capacitor-android', project ':capacitor-cordova-android-plugins', project ':capacitor-splash-screen']
+
+> Configure project :
+Evaluating root project 'android' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\build.gradle'.
+
+> Configure project :app
+Evaluating project ':app' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\build.gradle'.
+Using default execution profile
+google-services.json not found, google-services plugin not applied. Push Notifications won't work
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-android
+Evaluating project ':capacitor-android' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\build.gradle'.
+Using default execution profile
+
+> Configure project :capacitor-cordova-android-plugins
+Evaluating project ':capacitor-cordova-android-plugins' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\build.gradle'.
+Using default execution profile
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-splash-screen
+Evaluating project ':capacitor-splash-screen' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\build.gradle'.
+Using default execution profile
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:javaPreCompileDebug', task ':capacitor-android:preBuild', task ':capacitor-android:preDebugBuild', task ':capacitor-android:writeDebugAarMetadata', task ':capacitor-cordova-android-plugins:preBuild', task ':capacitor-cordova-android-plugins:preDebugBuild', task ':capacitor-cordova-android-plugins:writeDebugAarMetadata', task ':capacitor-splash-screen:preBuild', task ':capacitor-splash-screen:preDebugBuild', task ':capacitor-splash-screen:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':capacitor-android:processDebugNavigationResources', task ':capacitor-cordova-android-plugins:processDebugNavigationResources', task ':capacitor-splash-screen:processDebugNavigationResources', task ':app:processDebugNavigationResources', task ':app:compileDebugNavigationResources', task ':app:generateDebugResValues', task ':capacitor-android:generateDebugResValues', task ':capacitor-android:generateDebugResources', task ':capacitor-android:packageDebugResources', task ':capacitor-cordova-android-plugins:generateDebugResValues', task ':capacitor-cordova-android-plugins:generateDebugResources', task ':capacitor-cordova-android-plugins:packageDebugResources', task ':capacitor-splash-screen:generateDebugResValues', task ':capacitor-splash-screen:generateDebugResources', task ':capacitor-splash-screen:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':capacitor-android:extractDeepLinksDebug', task ':capacitor-android:processDebugManifest', task ':capacitor-cordova-android-plugins:extractDeepLinksDebug', task ':capacitor-cordova-android-plugins:processDebugManifest', task ':capacitor-splash-screen:extractDeepLinksDebug', task ':capacitor-splash-screen:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':capacitor-android:compileDebugLibraryResources', task ':capacitor-android:parseDebugLocalResources', task ':capacitor-android:generateDebugRFile', task ':capacitor-cordova-android-plugins:compileDebugLibraryResources', task ':capacitor-cordova-android-plugins:parseDebugLocalResources', task ':capacitor-cordova-android-plugins:generateDebugRFile', task ':capacitor-splash-screen:compileDebugLibraryResources', task ':capacitor-splash-screen:parseDebugLocalResources', task ':capacitor-splash-screen:generateDebugRFile', task ':app:processDebugResources', task ':capacitor-android:javaPreCompileDebug', task ':capacitor-android:compileDebugJavaWithJavac', task ':capacitor-android:bundleLibCompileToJarDebug', task ':capacitor-cordova-android-plugins:javaPreCompileDebug', task ':capacitor-cordova-android-plugins:compileDebugJavaWithJavac', task ':capacitor-cordova-android-plugins:bundleLibCompileToJarDebug', task ':capacitor-splash-screen:javaPreCompileDebug', task ':capacitor-splash-screen:compileDebugJavaWithJavac', task ':capacitor-splash-screen:bundleLibCompileToJarDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':capacitor-android:mergeDebugShaders', task ':capacitor-android:compileDebugShaders', task ':capacitor-android:generateDebugAssets', task ':capacitor-android:mergeDebugAssets', task ':capacitor-cordova-android-plugins:mergeDebugShaders', task ':capacitor-cordova-android-plugins:compileDebugShaders', task ':capacitor-cordova-android-plugins:generateDebugAssets', task ':capacitor-cordova-android-plugins:mergeDebugAssets', task ':capacitor-splash-screen:mergeDebugShaders', task ':capacitor-splash-screen:compileDebugShaders', task ':capacitor-splash-screen:generateDebugAssets', task ':capacitor-splash-screen:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':capacitor-splash-screen:bundleLibRuntimeToJarDebug', task ':capacitor-android:bundleLibRuntimeToJarDebug', task ':capacitor-cordova-android-plugins:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':capacitor-android:processDebugJavaRes', task ':capacitor-cordova-android-plugins:processDebugJavaRes', task ':capacitor-splash-screen:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':capacitor-splash-screen:bundleLibRuntimeToDirDebug', task ':capacitor-android:bundleLibRuntimeToDirDebug', task ':capacitor-cordova-android-plugins:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':capacitor-android:mergeDebugJniLibFolders', task ':capacitor-android:mergeDebugNativeLibs', task ':capacitor-android:copyDebugJniLibsProjectOnly', task ':capacitor-cordova-android-plugins:mergeDebugJniLibFolders', task ':capacitor-cordova-android-plugins:mergeDebugNativeLibs', task ':capacitor-cordova-android-plugins:copyDebugJniLibsProjectOnly', task ':capacitor-splash-screen:mergeDebugJniLibFolders', task ':capacitor-splash-screen:mergeDebugNativeLibs', task ':capacitor-splash-screen:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':capacitor-android:checkDebugAarMetadata', task ':capacitor-android:stripDebugDebugSymbols', task ':capacitor-android:copyDebugJniLibsProjectAndLocalJars', task ':capacitor-android:extractDebugAnnotations', task ':capacitor-android:extractDeepLinksForAarDebug', task ':capacitor-android:mergeDebugGeneratedProguardFiles', task ':capacitor-android:mergeDebugConsumerProguardFiles', task ':capacitor-android:prepareDebugArtProfile', task ':capacitor-android:prepareLintJarForPublish', task ':capacitor-android:mergeDebugJavaResource', task ':capacitor-android:syncDebugLibJars', task ':capacitor-android:bundleDebugAar', task ':capacitor-android:assembleDebug', task ':capacitor-cordova-android-plugins:checkDebugAarMetadata', task ':capacitor-cordova-android-plugins:stripDebugDebugSymbols', task ':capacitor-cordova-android-plugins:copyDebugJniLibsProjectAndLocalJars', task ':capacitor-cordova-android-plugins:extractDebugAnnotations', task ':capacitor-cordova-android-plugins:extractDeepLinksForAarDebug', task ':capacitor-cordova-android-plugins:mergeDebugGeneratedProguardFiles', task ':capacitor-cordova-android-plugins:mergeDebugConsumerProguardFiles', task ':capacitor-cordova-android-plugins:prepareDebugArtProfile', task ':capacitor-cordova-android-plugins:prepareLintJarForPublish', task ':capacitor-cordova-android-plugins:mergeDebugJavaResource', task ':capacitor-cordova-android-plugins:syncDebugLibJars', task ':capacitor-cordova-android-plugins:bundleDebugAar', task ':capacitor-cordova-android-plugins:assembleDebug', task ':capacitor-splash-screen:checkDebugAarMetadata', task ':capacitor-splash-screen:stripDebugDebugSymbols', task ':capacitor-splash-screen:copyDebugJniLibsProjectAndLocalJars', task ':capacitor-splash-screen:extractDebugAnnotations', task ':capacitor-splash-screen:extractDeepLinksForAarDebug', task ':capacitor-splash-screen:mergeDebugGeneratedProguardFiles', task ':capacitor-splash-screen:mergeDebugConsumerProguardFiles', task ':capacitor-splash-screen:prepareDebugArtProfile', task ':capacitor-splash-screen:prepareLintJarForPublish', task ':capacitor-splash-screen:mergeDebugJavaResource', task ':capacitor-splash-screen:syncDebugLibJars', task ':capacitor-splash-screen:bundleDebugAar', task ':capacitor-splash-screen:assembleDebug']
+Tasks that were excluded: []
+work action Parameters of IdentityTransform (Thread[Execution worker,5,main]) started.
+work action Parameters of DexingNoClasspathTransform (Thread[Execution worker Thread 6,5,main]) started.
+work action Parameters of DexingOutputSplitTransform (Thread[Execution worker Thread 6,5,main]) started.
+work action Parameters of ClassesDirToClassesTransform (Thread[Execution worker Thread 6,5,main]) started.
+work action Parameters of DexingOutputSplitTransform (Thread[Execution worker Thread 6,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[Execution worker Thread 6,5,main]) started.
+:app:preBuild (Thread[Execution worker Thread 4,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 4,5,main]) started.
+:app:preDebugBuild (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 10,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:javaPreCompileDebug (Thread[Execution worker Thread 10,5,main]) started.
+:app:javaPreCompileDebug (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :capacitor-android:preBuild (Thread[Execution worker Thread 10,5,main]) started.
+:capacitor-android:preBuild (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :capacitor-android:preBuild UP-TO-DATE
+Skipping task ':capacitor-android:preBuild' as it has no actions.
+Resolve mutations for :capacitor-android:preDebugBuild (Thread[Execution worker Thread 10,5,main]) started.
+:capacitor-android:preDebugBuild (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :capacitor-android:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-android:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-android:writeDebugAarMetadata (Thread[Execution worker Thread 15,5,main]) started.
+:capacitor-android:writeDebugAarMetadata (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :capacitor-android:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-android:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-android:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-android) (Thread[Execution worker Thread 14,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+:capacitor-cordova-android-plugins:preBuild (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+Skipping task ':capacitor-cordova-android-plugins:preBuild' as it has no actions.
+Resolve mutations for :capacitor-cordova-android-plugins:preDebugBuild (Thread[Execution worker Thread 10,5,main]) started.
+:capacitor-cordova-android-plugins:preDebugBuild (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-cordova-android-plugins:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-cordova-android-plugins:writeDebugAarMetadata (Thread[Execution worker Thread 11,5,main]) started.
+:capacitor-cordova-android-plugins:writeDebugAarMetadata (Thread[Execution worker Thread 15,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-cordova-android-plugins) (Thread[Execution worker Thread 15,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+:capacitor-splash-screen:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+
+> Task :capacitor-splash-screen:preBuild UP-TO-DATE
+Skipping task ':capacitor-splash-screen:preBuild' as it has no actions.
+Resolve mutations for :capacitor-splash-screen:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+:capacitor-splash-screen:preDebugBuild (Thread[Execution worker,5,main]) started.
+
+> Task :capacitor-splash-screen:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-splash-screen:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-splash-screen:writeDebugAarMetadata (Thread[Execution worker,5,main]) started.
+:capacitor-splash-screen:writeDebugAarMetadata (Thread[Execution worker,5,main]) started.
+
+> Task :capacitor-splash-screen:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':capacitor-splash-screen:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :capacitor-splash-screen) (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[Execution worker,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :capacitor-android:processDebugNavigationResources (Thread[Execution worker,5,main]) started.
+:capacitor-android:processDebugNavigationResources (Thread[Execution worker,5,main]) started.
+
+> Task :capacitor-android:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-android) (Thread[Execution worker,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:processDebugNavigationResources (Thread[Execution worker Thread 6,5,main]) started.
+:capacitor-cordova-android-plugins:processDebugNavigationResources (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-cordova-android-plugins) (Thread[Execution worker,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:processDebugNavigationResources (Thread[Execution worker Thread 3,5,main]) started.
+:capacitor-splash-screen:processDebugNavigationResources (Thread[Execution worker Thread 3,5,main]) started.
+
+> Task :capacitor-splash-screen:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:processDebugNavigationResources' as it is up-to-date.
+work action resolve debug (project :capacitor-splash-screen) (Thread[Execution worker Thread 3,5,main]) started.
+Resolve mutations for :app:processDebugNavigationResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:processDebugNavigationResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[Execution worker Thread 11,5,main]) started.
+:app:compileDebugNavigationResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+:app:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-android:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+:capacitor-android:generateDebugResValues (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :capacitor-android:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-android:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-android:generateDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+:capacitor-android:generateDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :capacitor-android:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-android:packageDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+:capacitor-android:packageDebugResources (Thread[Execution worker Thread 11,5,main]) started.
+
+> Task :capacitor-android:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-android) (Thread[Execution worker Thread 11,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:generateDebugResValues (Thread[Execution worker Thread 5,5,main]) started.
+:capacitor-cordova-android-plugins:generateDebugResValues (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:generateDebugResources (Thread[Execution worker Thread 5,5,main]) started.
+:capacitor-cordova-android-plugins:generateDebugResources (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:packageDebugResources (Thread[Execution worker Thread 5,5,main]) started.
+:capacitor-cordova-android-plugins:packageDebugResources (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-cordova-android-plugins) (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:generateDebugResValues (Thread[Execution worker Thread 5,5,main]) started.
+:capacitor-splash-screen:generateDebugResValues (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-splash-screen:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :capacitor-splash-screen:generateDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-splash-screen:generateDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-splash-screen:generateDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:generateDebugResources' as it is up-to-date.
+Resolve mutations for :capacitor-splash-screen:packageDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-splash-screen:packageDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-splash-screen:packageDebugResources UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :capacitor-splash-screen) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[Execution worker Thread 7,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:app:generateDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:app:mergeDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+:app:packageDebugResources (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[Execution worker Thread 5,5,main]) started.
+:app:parseDebugLocalResources (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 7,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+:app:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :capacitor-android:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-android:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-android:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-android:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-android) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-android:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-android:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-android:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-android:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-android) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-cordova-android-plugins:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-cordova-android-plugins) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-cordova-android-plugins:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-cordova-android-plugins) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-splash-screen:extractDeepLinksDebug (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-splash-screen:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :capacitor-splash-screen) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-splash-screen:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :capacitor-splash-screen:processDebugManifest UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :capacitor-splash-screen) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :app:processDebugMainManifest (Thread[Execution worker Thread 7,5,main]) started.
+:app:processDebugMainManifest (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+:app:processDebugManifest (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[Execution worker Thread 7,5,main]) started.
+:app:processDebugManifestForPackage (Thread[Execution worker Thread 7,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :capacitor-android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-android:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-android:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-android) (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :capacitor-android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-android:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-android:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-android:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-android:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-android:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-android:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-android) (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-cordova-android-plugins:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-cordova-android-plugins) (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-cordova-android-plugins:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-cordova-android-plugins:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-cordova-android-plugins:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-cordova-android-plugins:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-cordova-android-plugins:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-cordova-android-plugins) (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-splash-screen:compileDebugLibraryResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-splash-screen:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :capacitor-splash-screen) (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-splash-screen:parseDebugLocalResources (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-splash-screen:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :capacitor-splash-screen:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+:capacitor-splash-screen:generateDebugRFile (Thread[Execution worker Thread 12,5,main]) started.
+
+> Task :capacitor-splash-screen:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':capacitor-splash-screen:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':capacitor-splash-screen:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :capacitor-splash-screen) (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :app:processDebugResources (Thread[Execution worker Thread 12,5,main]) started.
+:app:processDebugResources (Thread[Execution worker Thread 12,5,main]) started.
+Resolve mutations for :capacitor-android:javaPreCompileDebug (Thread[Execution worker Thread 14,5,main]) started.
+:capacitor-android:javaPreCompileDebug (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :capacitor-android:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':capacitor-android:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':capacitor-android:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :capacitor-android:compileDebugJavaWithJavac (Thread[Execution worker Thread 14,5,main]) started.
+:capacitor-android:compileDebugJavaWithJavac (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :capacitor-android:compileDebugJavaWithJavac FAILED
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+Custom actions are attached to task ':capacitor-android:compileDebugJavaWithJavac'.
+Caching disabled for task ':capacitor-android:compileDebugJavaWithJavac' because:
+  Build cache is disabled
+Task ':capacitor-android:compileDebugJavaWithJavac' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':capacitor-android:compileDebugJavaWithJavac'.
+Compilation mode: in-process compilation
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+Full recompilation is required because no incremental change information is available. This is usually caused by clean builds or changing compiler arguments.
+Compiling with toolchain 'C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot'.
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\src\debug\java', not found
+Compiling with JDK Java compiler API.
+
+> Task :app:processDebugResources
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\libs', not found
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Task ':app:processDebugResources' is not up-to-date because:
+  No history is available.
+The input changes require a full rebuild for incremental task ':app:processDebugResources'.
+AAPT2 aapt2-8.13.0-13719691-windows Daemon #0: starting
+Aapt output file D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\build\intermediates\linked_resources_binary_format\debug\processDebugResources\linked-resources-binary-format-debug.ap_
+AAPT2 aapt2-8.13.0-13719691-windows Daemon #0: shutdown
+
+[Incubating] Problems report is available at: file:///D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':capacitor-android:compileDebugJavaWithJavac'.
+> Java compilation initialization error
+    error: invalid source release: 21
+
+* Try:
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':capacitor-android:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: java.lang.IllegalArgumentException: error: invalid source release: 21
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.error(Arguments.java:905)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.doProcessArgs(Arguments.java:383)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.processArgs(Arguments.java:347)
+	at jdk.compiler/com.sun.tools.javac.main.Arguments.init(Arguments.java:246)
+	at jdk.compiler/com.sun.tools.javac.api.JavacTool.getTask(JavacTool.java:191)
+	at org.gradle.api.internal.tasks.compile.JdkTools$DefaultIncrementalAwareCompiler.getTask(JdkTools.java:99)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.createCompileTask(JdkJavaCompiler.java:113)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:76)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:46)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:36)
+	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(DefaultToolchainJavaCompiler.java:57)
+	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(JavaCompile.java:206)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompiler.execute(CleaningJavaCompiler.java:53)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory.lambda$createRebuildAllCompiler$0(IncrementalCompilerFactory.java:55)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:70)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:66)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:224)
+	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(JavaCompile.java:165)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:150)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:45)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(IncrementalTaskAction.java:26)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+
+
+BUILD FAILED in 3s
+48 actionable tasks: 2 executed, 46 up-to-date
+Watched directory hierarchies: [D:\DarkDEV\cryptospell\cryptospell game - Copy\android]

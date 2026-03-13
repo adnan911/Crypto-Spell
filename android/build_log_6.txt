@@ -1,0 +1,1938 @@
+Initialized native services in: C:\Users\adnan\.gradle\native
+Initialized jansi services in: C:\Users\adnan\.gradle\native
+Found daemon DaemonInfo{pid=29448, address=[9571e8ef-352a-4353-ba66-33b94c6757ac port:59298, addresses:[/127.0.0.1]], state=Idle, lastBusy=1773305559508, context=DefaultDaemonContext[uid=cfa661ed-be47-4e91-b3ea-7d9a3b5a0f0c,javaHome=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot,javaVersion=17,javaVendor=Microsoft,daemonRegistryDir=C:\Users\adnan\.gradle\daemon,pid=29448,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+At least one daemon option is different.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot (no JDK specified, using current Java home), daemonOpts=[-Xmx1536m, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=cfa661ed-be47-4e91-b3ea-7d9a3b5a0f0c,javaHome=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot,javaVersion=17,javaVendor=Microsoft,daemonRegistryDir=C:\Users\adnan\.gradle\daemon,pid=29448,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+Found daemon DaemonInfo{pid=12332, address=[5ad4b5bf-7a59-4b27-add4-78e0c876426f port:56574, addresses:[/127.0.0.1]], state=Idle, lastBusy=1773306040124, context=DefaultDaemonContext[uid=319f7788-85c5-4696-b302-ccf2a7d87b2c,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\adnan\.gradle\daemon,pid=12332,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} however its context does not match the desired criteria.
+JVM is incompatible.
+Wanted: DaemonRequestContext{jvmCriteria=C:\Users\adnan\AppData\Local\Programs\Microsoft\jdk-17.0.18.8-hotspot (no JDK specified, using current Java home), daemonOpts=[-Xmx1536m, -Dfile.encoding=windows-1252, -Duser.country=US, -Duser.language=en, -Duser.variant], applyInstrumentationAgent=true, nativeServicesMode=ENABLED, priority=NORMAL}
+Actual: DefaultDaemonContext[uid=319f7788-85c5-4696-b302-ccf2a7d87b2c,javaHome=C:\Program Files\Android\Android Studio\jbr,javaVersion=21,javaVendor=JetBrains s.r.o.,daemonRegistryDir=C:\Users\adnan\.gradle\daemon,pid=12332,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+
+  Looking for a different daemon...
+The client will now receive all logging from the daemon (pid: 6656). The daemon log file: C:\Users\adnan\.gradle\daemon\8.14.3\daemon-6656.out.log
+Starting 15th build in daemon [uptime: 26 mins 51.546 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 1.5 GiB]
+Using 16 worker leases.
+Now considering [D:\DarkDEV\cryptospell\cryptospell game - Copy\android] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\settings.gradle'.
+Projects loaded. Root project using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\build.gradle'.
+Included projects: [root project 'android', project ':app', project ':capacitor-android', project ':capacitor-cordova-android-plugins', project ':capacitor-splash-screen']
+
+> Configure project :
+Evaluating root project 'android' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\build.gradle'.
+Caching disabled for Groovy DSL script compilation (cp_proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\build.gradle' using SubsetScriptTransformer.
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.24/kotlin-gradle-plugin-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.24/kotlin-gradle-plugin-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download9582651906077013160bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/1.9.24/kotlin-gradle-plugins-bom-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/1.9.24/kotlin-gradle-plugins-bom-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download11639328139541821449bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/1.9.24/kotlin-gradle-plugins-bom-1.9.24.module to C:\Users\adnan\.gradle\.tmp\gradle_download17360801404470849149bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.24/kotlin-gradle-plugin-1.9.24.module to C:\Users\adnan\.gradle\.tmp\gradle_download2886982655411770941bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.9.24/kotlin-gradle-plugin-api-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.9.24/kotlin-gradle-plugin-api-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download11621846626185328328bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.9.24/kotlin-gradle-plugin-model-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.9.24/kotlin-compiler-runner-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.9.24/kotlin-gradle-plugin-api-1.9.24.module to C:\Users\adnan\.gradle\.tmp\gradle_download13553403166969285183bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-android-extensions/1.9.24/kotlin-android-extensions-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.9.24/kotlin-scripting-compiler-embeddable-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.9.24/kotlin-compiler-embeddable-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.9.24/kotlin-klib-commonizer-api-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-util-klib/1.9.24/kotlin-util-klib-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.9.24/kotlin-scripting-compiler-embeddable-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download14935131844318402661bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.9.24/kotlin-scripting-compiler-impl-embeddable-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.9.24/kotlin-gradle-plugin-model-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download3746935044037132394bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.9.24/kotlin-compiler-runner-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download18359119360428437743bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/1.9.24/kotlin-build-tools-api-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-android-extensions/1.9.24/kotlin-android-extensions-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download11381142679009778210bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.9.24/kotlin-compiler-embeddable-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download14644883253147899093bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.9.24/kotlin-scripting-compiler-impl-embeddable-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download3410320582142204939bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.9.24/kotlin-gradle-plugin-model-1.9.24.module to C:\Users\adnan\.gradle\.tmp\gradle_download17408868256246494983bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.9.24/kotlin-klib-commonizer-api-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download5180677244372757887bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/1.9.24/kotlin-util-klib-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download14639725045536029528bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/1.9.24/kotlin-build-tools-api-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download15509781180021911182bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/1.9.24/kotlin-gradle-plugin-idea-proto-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/1.9.24/kotlin-gradle-plugin-idea-proto-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download16268972501371529855bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/1.9.24/kotlin-gradle-plugin-idea-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/1.9.24/kotlin-gradle-plugin-idea-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download11951705522316839552bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/1.9.24/kotlin-gradle-plugin-idea-1.9.24.module to C:\Users\adnan\.gradle\.tmp\gradle_download18423234765392899314bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-project-model/1.9.24/kotlin-project-model-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project-model/1.9.24/kotlin-project-model-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download534933720471459527bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-native-utils/1.9.24/kotlin-native-utils-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-tooling-core/1.9.24/kotlin-tooling-core-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/1.9.24/kotlin-gradle-plugin-annotations-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/1.9.24/kotlin-native-utils-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download16423550886914045026bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-tooling-core/1.9.24/kotlin-tooling-core-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download13166611212385222669bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/1.9.24/kotlin-gradle-plugin-annotations-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download2143189655077345474bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-util-io/1.9.24/kotlin-util-io-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-io/1.9.24/kotlin-util-io-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download1877993638599330734bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.9.24/kotlin-daemon-embeddable-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.9.24/kotlin-daemon-embeddable-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download5931383413064645631bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.9.24/kotlin-daemon-client-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.9.24/kotlin-daemon-client-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download14972942869137372763bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.9.24/kotlin-scripting-common-1.9.24.pom]
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.9.24/kotlin-scripting-jvm-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.9.24/kotlin-scripting-common-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download5854593438858995632bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.9.24/kotlin-scripting-jvm-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download18227199200635530709bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.9.24/kotlin-gradle-plugin-api-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download13414826456568720376bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.9.24/kotlin-gradle-plugin-model-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download11885670086403379315bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.9.24/kotlin-gradle-plugin-1.9.24-gradle82.jar to C:\Users\adnan\.gradle\.tmp\gradle_download10832341899567636403bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea-proto/1.9.24/kotlin-gradle-plugin-idea-proto-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download7443265085496767281bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-native-utils/1.9.24/kotlin-native-utils-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download12721585977191621370bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-annotations/1.9.24/kotlin-gradle-plugin-annotations-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download17002824317231435116bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-project-model/1.9.24/kotlin-project-model-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download17949227126932129240bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/1.9.24/kotlin-build-tools-api-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download16494282607357089744bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-klib/1.9.24/kotlin-util-klib-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download7567084642099296283bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.9.24/kotlin-compiler-embeddable-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download17537040101605540809bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/1.9.24/kotlin-compiler-runner-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download10870769566620639980bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.9.24/kotlin-scripting-compiler-impl-embeddable-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download13178518976255524453bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-android-extensions/1.9.24/kotlin-android-extensions-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download12682900841057486368bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-tooling-core/1.9.24/kotlin-tooling-core-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download1390455052643636045bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.9.24/kotlin-scripting-compiler-embeddable-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download4609427985949486628bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-klib-commonizer-api/1.9.24/kotlin-klib-commonizer-api-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download38335079373949527bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugin-idea/1.9.24/kotlin-gradle-plugin-idea-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download17189879845079844947bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-util-io/1.9.24/kotlin-util-io-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download11197771236770262669bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.9.24/kotlin-daemon-embeddable-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download3715231303376747468bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/1.9.24/kotlin-daemon-client-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download3355467108368134614bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.9.24/kotlin-scripting-jvm-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download15264957947168324039bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/1.9.24/kotlin-scripting-common-1.9.24.jar to C:\Users\adnan\.gradle\.tmp\gradle_download8317537613923075916bin
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-model\1.9.24\149d2d9a524d7ce15dd47c39016b892f7c534b04\kotlin-gradle-plugin-model-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-api\1.9.24\346254737044a5b3874ce50e314b16af8e03258e\kotlin-gradle-plugin-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin\1.9.24\b6f5f875b19f9240f2e83e00f6f2b9dff1ebc2c3\kotlin-gradle-plugin-1.9.24-gradle82.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-runner\1.9.24\ca8384aa1ed84329f3811f628cc016631d17e65\kotlin-compiler-runner-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-idea-proto\1.9.24\6cbed8e30d8dd9893288df9c90b0e63845484650\kotlin-gradle-plugin-idea-proto-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-idea\1.9.24\83cf5d4acdbf6c1e7b32ca96cb79b96e4cce032e\kotlin-gradle-plugin-idea-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-klib-commonizer-api\1.9.24\77da2fbc04153a45bb3ef1370256128e5547b388\kotlin-klib-commonizer-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-native-utils\1.9.24\55c5f408d8febbc4858a5adfae9d2bec1853ae54\kotlin-native-utils-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-util-klib\1.9.24\d66bfd072c4f44b520afbed38641853770a819f8\kotlin-util-klib-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-build-tools-api\1.9.24\7815f17102735413773a54a9baa742358225cf77\kotlin-build-tools-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions\1.9.24\8f507629deb592b3378eea1797506bf35c370159\kotlin-android-extensions-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.9.24\78dab849090e6c5e2eadb6e59a11cdc28fb67a08\kotlin-compiler-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-compiler-embeddable\1.9.24\1e6b33f8a691420c1265349809192b66b7e56e8b\kotlin-scripting-compiler-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-compiler-impl-embeddable\1.9.24\e1c67ba2d4663fbb142770f473230acc84ffdc07\kotlin-scripting-compiler-impl-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-project-model\1.9.24\3f4faa3597b080350b68256e256f499d5fb9ba37\kotlin-project-model-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-annotations\1.9.24\cdee65760ea002d55b21e0be9965eea982278312\kotlin-gradle-plugin-annotations-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-tooling-core\1.9.24\bdc01105250e7ecc8bbcf49a21805685cd557dda\kotlin-tooling-core-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-util-io\1.9.24\f402c94b93eab99bb1af746126cf979c748064cf\kotlin-util-io-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.9.24\86685b9c5e8d170925bd9ddbdc263374a6a73281\kotlin-daemon-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-client\1.9.24\2e099afd326c9d61474f95bf674fb749a8e150ca\kotlin-daemon-client-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-jvm\1.9.24\f179cc31fb89102c0e229c23b7d852d9840e13c7\kotlin-scripting-jvm-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for InstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-common\1.9.24\48e672815d9b6bb7fcebb8c1bd2de0c449e4fb16\kotlin-scripting-common-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\818b47d10b63018791b6a60aa924ea46\transformed\.gradle-instrumented-classpath.marker because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c35140694e02e9cd30a76b0ec8e6206e\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c75b38075baaf73c2a51fd87da008378\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\15c904644bb2293595c8e6095c014f6f\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\818b47d10b63018791b6a60aa924ea46\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\94a8263dfb701c5903fb830e754744b2\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\20c71a9c8d3274ca2883d2e1f9cf19ae\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c0ad020df3a1efde133ee2a793793e1a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2604788a23ff2c02679faad4054c4898\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9efad5d2020f84005e6b29c5673ea939\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5f6839f227bcb7e8f1b69275bb0233f6\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\204cbc96e2bba015110aec495229c7df\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8008a13bb70b0289ef0aed40a6b70dc3\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\85c1f01a4f712ee37cb02888f1e43bab\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\471c629f4c6eae5e2697476838a5eb2e\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\13ae7a0942e5c0c279211e3faf2cddc5\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c35140694e02e9cd30a76b0ec8e6206e\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\15c904644bb2293595c8e6095c014f6f\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c75b38075baaf73c2a51fd87da008378\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c0ad020df3a1efde133ee2a793793e1a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\20c71a9c8d3274ca2883d2e1f9cf19ae\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\818b47d10b63018791b6a60aa924ea46\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\94a8263dfb701c5903fb830e754744b2\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2604788a23ff2c02679faad4054c4898\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\13ae7a0942e5c0c279211e3faf2cddc5\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\604d8bc041c8db9b0d721480810a5db9\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\204cbc96e2bba015110aec495229c7df\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8008a13bb70b0289ef0aed40a6b70dc3\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9efad5d2020f84005e6b29c5673ea939\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5f6839f227bcb7e8f1b69275bb0233f6\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\85c1f01a4f712ee37cb02888f1e43bab\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\471c629f4c6eae5e2697476838a5eb2e\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\gradle-common-api\8.13.0\ecab00ad788f7e850245cf43fedbf92416073897\gradle-common-api-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.lint\lint-model\31.13.0\2a075401e908da1ee9389d5f1c7d790743158df6\lint-model-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\builder-test-api\8.13.0\7d21b96aca51e3fbd6eecd83fa6c29c897d983a3\builder-test-api-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\gradle-settings-api\8.13.0\bbe6dd6ad7570e6c7238efc0c0e41a9b1e25f4be\gradle-settings-api-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-model\1.9.24\149d2d9a524d7ce15dd47c39016b892f7c534b04\kotlin-gradle-plugin-model-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools\repository\31.13.0\6ba0f911b4da8aaa0981d08fe80219aa476fef77\repository-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.gms\google-services\4.4.4\36530e49a6ab5ae88f518a63d31349e502cc6d17\google-services-4.4.4.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\gradle-api\8.13.0\a1934fd2f481cc11cacd41da0f4e3066282d598d\gradle-api-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.ddms\ddmlib\31.13.0\772f1af975b6cbb75b0e69727e1c2d3d58f89f3f\ddmlib-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-api\1.9.24\346254737044a5b3874ce50e314b16af8e03258e\kotlin-gradle-plugin-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools\sdk-common\31.13.0\58ba9dc3f16bd818267502fd382aa2c5bdbd7a6f\sdk-common-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools\sdklib\31.13.0\3ad84fc709b8e85533da11e91b97c88a5825ef7f\sdklib-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eb200d4f4b164b073f7a2c5bf68b46f7\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\manifest-merger\31.13.0\879c9c7b15e58be665a4c1fbc87d29bffb20a049\manifest-merger-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5830757e12ad1e65e73e6bce89eb0295\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\25f9431813e638de3f3b5340fefa1d26\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d06b0b52cd0fb810319e94ae25a3c772\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1800d16cc55c67ae3efa19a0508fc658\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\builder\8.13.0\d6c27fbcf3b96f30153c8ae51d4be386e36f6cf5\builder-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2ce5e7ded0d25c0b167dccf0ab462a6f\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d4c80c7b9de4b6098de4c99825fcffbf\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\726297a5e82c421342deec2bc34e7de7\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\33203e30335b82e7c36f3bde32e7951e\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fb53d7af0395c73f89b33883d41e5400\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eb200d4f4b164b073f7a2c5bf68b46f7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5830757e12ad1e65e73e6bce89eb0295\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\bb33695ac73783285823eddabd4167b6\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\25f9431813e638de3f3b5340fefa1d26\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d06b0b52cd0fb810319e94ae25a3c772\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4d94407ec09f1dbdc61a583dab9b1f48\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2ce5e7ded0d25c0b167dccf0ab462a6f\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ba21be6e2f16a317f527e2e1cc7d6c33\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin\1.9.24\b6f5f875b19f9240f2e83e00f6f2b9dff1ebc2c3\kotlin-gradle-plugin-1.9.24-gradle82.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1faa2c966a86910c23de96c0bf427e44\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d4c80c7b9de4b6098de4c99825fcffbf\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fb53d7af0395c73f89b33883d41e5400\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\726297a5e82c421342deec2bc34e7de7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\gradle\8.13.0\a8b3900300f530a0f0378f88b12711d39b142a02\gradle-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\bb33695ac73783285823eddabd4167b6\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ba21be6e2f16a317f527e2e1cc7d6c33\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4d94407ec09f1dbdc61a583dab9b1f48\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\aapt2-proto\8.13.0-13719691\80017b506eaa188e783e5f24b3a81f735e517037\aapt2-proto-8.13.0-13719691.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1faa2c966a86910c23de96c0bf427e44\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.analytics-library\tracker\31.13.0\d1c2e46c754b3e31cef44e58e391f507ca55db8f\tracker-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\aaptcompiler\8.13.0\c13aa9668b78ad1844c7f9fa9c5bb9ab5115c942\aaptcompiler-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.analytics-library\crash\31.13.0\80c9f1f06e8d48d60fa91f4db811cf863e13c67f\crash-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\df7d059ab7beb224230b14045e522eb2\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3eee016c8cbebaec55ef16d902047198\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\androidx.databinding\databinding-compiler-common\8.13.0\d71219e26c5fc1e34a167482ca8e144531245fee\databinding-compiler-common-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.analytics-library\shared\31.13.0\c151a4c2f5827b7a256cdd39e309e0a99d5d312d\shared-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\30bc3e8c60fe01208ea406bda174d97e\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e641860d763555ea16c0c12b9b7d80b6\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\940c7e0f7ecc95e7ff813a0929efcb19\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-model\1.9.24\149d2d9a524d7ce15dd47c39016b892f7c534b04\kotlin-gradle-plugin-model-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1ed6161d137e62be4207e92123082cf9\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.layoutlib\layoutlib-api\31.13.0\3b7f1fe9c54d6fd684a3fd3b8feffeedfe546fd4\layoutlib-api-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.lint\lint-typedef-remover\31.13.0\bc9756d95080ee30b518adf2c02d70dea0930feb\lint-typedef-remover-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1140f9aa3e86898a5c60290f6860e7b8\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-device-provider-ddmlib-proto\31.13.0\9f96225642b573079e5544a619b18b815b3dc70f\android-device-provider-ddmlib-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\androidx.databinding\databinding-common\8.13.0\2be3530b78477835e69dce953b17adc1dbc5c6fa\databinding-common-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e641860d763555ea16c0c12b9b7d80b6\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\30bc3e8c60fe01208ea406bda174d97e\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\8.13.0\7e7399239e52d4069896277615e005add7ae8e5a\baseLibrary-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\940c7e0f7ecc95e7ff813a0929efcb19\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1ed6161d137e62be4207e92123082cf9\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1a7b40a1a42dba1e4e8ce3d16b1ad777\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8e44ba91113f230306eb72a1266d6ecb\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1140f9aa3e86898a5c60290f6860e7b8\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dda41bb5375b7d8924d72c1aa979db20\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d22f3fbbd22ac88826e0a2968e832d55\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dcf60ca1616d5af1043df8035ba29af0\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-test-plugin-host-additional-test-output-proto\31.13.0\fe467239b47e0709ba9bf1e2e9fccaabc6cabc22\android-test-plugin-host-additional-test-output-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\66a9cd4802846bed4d24f42d3a3e663e\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\bundletool\1.18.1\76bb1aa21a19495ca070bfb6abd194daf91dccd1\bundletool-1.18.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-device-provider-profile-proto\31.13.0\7823ffdbacbe3e46ce243d459f946467b7126135\android-device-provider-profile-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\b3646d1764dc86302bbf8bca492b77c7\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8e44ba91113f230306eb72a1266d6ecb\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-test-plugin-host-coverage-proto\31.13.0\1ee63a78550acb6f922531668f4eb83dddf45e\android-test-plugin-host-coverage-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dda41bb5375b7d8924d72c1aa979db20\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1a7b40a1a42dba1e4e8ce3d16b1ad777\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-test-plugin-host-logcat-proto\31.13.0\2b1de9f172f374f9d8a0f60d0d7d556df7c30d14\android-test-plugin-host-logcat-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-test-plugin-host-emulator-control-proto\31.13.0\9ad66b4b96af8d226c9d899030d9acdd101d03ed\android-test-plugin-host-emulator-control-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d22f3fbbd22ac88826e0a2968e832d55\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\03d2c9ec48a3ea44ab714940b5590aaf\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dcf60ca1616d5af1043df8035ba29af0\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\66a9cd4802846bed4d24f42d3a3e663e\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8f9488ffa98ffff709a98556bc60971d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\b3646d1764dc86302bbf8bca492b77c7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f3f0e9c8bbe1841c1c70b054efdc1714\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c65440522cdfdcdac2e7ee72e71cf3af\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\a4e83351f672928bb03a45883e97c847\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\90c164619dc6d5099d3a21544102b021\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-test-plugin-result-listener-gradle-proto\31.13.0\dbbef067ddf95379b587f6aa2baa93d3eb3342eb\android-test-plugin-result-listener-gradle-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.utp\android-test-plugin-host-apk-installer-proto\31.13.0\915dc4efd7db61b0c2bb16f88dcf640e824a232d\android-test-plugin-host-apk-installer-proto-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\03d2c9ec48a3ea44ab714940b5590aaf\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build.jetifier\jetifier-core\1.0.0-beta10\6e621022a9c95af12a7004d6b55805bbd1126837\jetifier-core-1.0.0-beta10.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build.jetifier\jetifier-processor\1.0.0-beta10\946c39eb0c052ff4f60a8939648a8b99af20d604\jetifier-processor-1.0.0-beta10.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f3f0e9c8bbe1841c1c70b054efdc1714\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\a4e83351f672928bb03a45883e97c847\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\builder-model\8.13.0\bc2653e98e975e2f011dd479b451bb3881e246d\builder-model-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c65440522cdfdcdac2e7ee72e71cf3af\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\2.2.0\ed572b04cd66acce7837ad753e4fe64d9c536025\kotlin-stdlib-jdk8-2.2.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\db3f0e72355db82648a1d2417a925952\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-api\1.9.24\346254737044a5b3874ce50e314b16af8e03258e\kotlin-gradle-plugin-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.android.gms\strict-version-matcher-plugin\1.2.4\37f8b2ab56ecab699697602acdd598cb6d809b38\strict-version-matcher-plugin-1.2.4.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\60551fb10887049ce526e87d531756fa\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\2.2.0\bfd42edfc4f88de5a02131108ab800fb32d53d03\kotlin-stdlib-jdk7-2.2.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\699ced744f152f2c25b7bb93d45ed914\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools\dvlib\31.13.0\6079cc9f2fa5f5104b20779ca98faa1c495bb7f1\dvlib-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools\common\31.13.0\213e645551debc91068152b3149a9ed53e2572f7\common-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.9.0\9beade4c1c1569e4f36cbd2c37e02e3e41502601\kotlinx-coroutines-core-jvm-1.9.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f1fea3929cb077a73cdfc54c794bb692\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\10fbdb6efae963fac0638e8f6e78efb5\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\db3f0e72355db82648a1d2417a925952\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f290866a6691a052f36dfdc250ff1a74\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-runner\1.9.24\ca8384aa1ed84329f3811f628cc016631d17e65\kotlin-compiler-runner-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\80b295159ab5022c781cde237d8ead27\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\de6631a215e4921efc463a9c8ff34f72\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\699ced744f152f2c25b7bb93d45ed914\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1740dff503aba90441a7e87bc13c39c7\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-reflect\2.2.0\4258f471b10f4fce1b1c000b59495b7413e1af9a\kotlin-reflect-2.2.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9c9841a347a7e15427ee43d268b08f11\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\transform-api\2.0.0-deprecated-use-gradle-api\47f6c56527c42425742fa9b56ffd3fd80763fe03\transform-api-2.0.0-deprecated-use-gradle-api.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2007276749d1ee777045586a57500c4e\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f1fea3929cb077a73cdfc54c794bb692\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dda2ae21feef9cd3a112876e3574c795\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f290866a6691a052f36dfdc250ff1a74\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\10fbdb6efae963fac0638e8f6e78efb5\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.2.0\fdfc65fbc42fda253a26f61dac3c0aca335fae96\kotlin-stdlib-2.2.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\80b295159ab5022c781cde237d8ead27\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\621dd4f8bd6776b5e92afef68923bd2f\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9c9841a347a7e15427ee43d268b08f11\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\de6631a215e4921efc463a9c8ff34f72\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1740dff503aba90441a7e87bc13c39c7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3b409ad4310ac8b9e5216d4a18053de4\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2007276749d1ee777045586a57500c4e\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dda2ae21feef9cd3a112876e3574c795\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e9302a0e4bffedc3fca206ef4d4cfcd3\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.5.6\164343da11db817e81e24e0d9869527e069850c9\httpmime-4.5.6.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.16.1\377d592e740dc77124e0901291dbfaa6810a200e\commons-io-2.16.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.8\395f1c1f035258511f27bc9b2583d76e4b143f59\asm-util-9.8.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\db945b48c259560e74e75cc04355a30e\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.8\36e4d212970388e5bd2c5180292012502df461bb\asm-commons-9.8.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\apkzlib\8.13.0\ea2327cd7a67c0fc9a4d26f035b922dff11c7219\apkzlib-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3b409ad4310ac8b9e5216d4a18053de4\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.8\b9747a320844b6cb1eacd90d8ecfd260a16c01d3\asm-analysis-9.8.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e9302a0e4bffedc3fca206ef4d4cfcd3\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eb32442c092cfb7c6c2da00dceab6947\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ca169f51563a43ea28cbe1b30f95c8f1\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcpkix-jdk18on\1.79\7693cec3b8779b74b35466dcaeeaac7409872954\bcpkix-jdk18on-1.79.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\52b6b0d207df6ebcc10815eb661c9c41\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\db945b48c259560e74e75cc04355a30e\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-runner\1.9.24\ca8384aa1ed84329f3811f628cc016631d17e65\kotlin-compiler-runner-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\6e232d4846bf60053e353bcbf12c90f2\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\7bb32cd29902c8fbb991fd2cd70ec2dc\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.8\18419ca5b77a2f81097c741e7872e6ab8d2f40d\asm-tree-9.8.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.8\dc19ecb3f7889b7860697215cae99c0f9b6f6b4b\asm-9.8.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\jaxb-runtime\2.3.2\5528bc882ea499a09d720b42af11785c4fc6be2a\jaxb-runtime-2.3.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\4.9\ee9e9eaa0a35360dcfeac129ff4923215fd65904\jopt-simple-4.9.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ca169f51563a43ea28cbe1b30f95c8f1\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9a1ad38992b56cc0d888aa111bd889b6\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1174733c7f40d0e84c9567641f43b838\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f5e7cbd33965b2277d6e5b32e4243388\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\52b6b0d207df6ebcc10815eb661c9c41\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eb32442c092cfb7c6c2da00dceab6947\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\6e232d4846bf60053e353bcbf12c90f2\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\7bb32cd29902c8fbb991fd2cd70ec2dc\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.squareup\javapoet\1.10.0\712c178d35185d8261295913c9f2a7d6867a6007\javapoet-1.10.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java-util\3.25.5\38cc5ce479603e36466feda2a9f1dfdb2210ef00\protobuf-java-util-3.25.5.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\0b36d3b78a82f0b6f76dd8bb446786b7\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1489a061df108776aec3a0fbe1aad2dd\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d83cc602142cd1ad44f1085e109f1e43\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1174733c7f40d0e84c9567641f43b838\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9a1ad38992b56cc0d888aa111bd889b6\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f5e7cbd33965b2277d6e5b32e4243388\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4c7972db9b9b5b9e2dcbf161c2865efe\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.testing.platform\core-proto\0.0.9-alpha03\a0de640d69d847081f087c45dda7e9b3754fe350\core-proto-0.0.9-alpha03.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\227893ff0fca75ba2bb76ee497e639d6\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9aa2e09e85c2024683d7793a3f3c9b70\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-protobuf\1.69.1\433b61f31e1dce6adf6c43ea3ca510f8d8d7ea70\grpc-protobuf-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.crypto.tink\tink\1.7.0\668b57f109d32349b2870448f06ae6f202713edc\tink-1.7.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d83cc602142cd1ad44f1085e109f1e43\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.api.grpc\proto-google-common-protos\2.48.0\86b550469172d830d174d7434c318d7dff179910\proto-google-common-protos-2.48.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1489a061df108776aec3a0fbe1aad2dd\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\0b36d3b78a82f0b6f76dd8bb446786b7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-inprocess\1.69.1\8999d859ebf25f00e5a968b5e36e1294b109cb9e\grpc-inprocess-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\227893ff0fca75ba2bb76ee497e639d6\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.protobuf\protobuf-java\3.25.5\5ae5c9ec39930ae9b5a61b32b93288818ec05ec1\protobuf-java-3.25.5.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\30e0792d51ca83a9760bf450228acc0f\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4c7972db9b9b5b9e2dcbf161c2865efe\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9aa2e09e85c2024683d7793a3f3c9b70\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\76c3e7f6d14c8a7445a904962c5a472a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\086a6cea648abff324520aa09f9b178d\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2c281df259447b90c8ecec5e55493c8a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dbe7d4fe17613f45bc46df8523186cdc\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.11.0\527175ca6d81050b53bdd4c457a6d6e017626b0e\gson-2.11.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\30e0792d51ca83a9760bf450228acc0f\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5f6bee54ba2c93bf641e5b3e2cbf7bd0\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.analytics-library\protos\31.13.0\568520224f5c347add38c2bef3d0288ae11f8d31\protos-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\76c3e7f6d14c8a7445a904962c5a472a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\086a6cea648abff324520aa09f9b178d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dbe7d4fe17613f45bc46df8523186cdc\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-netty\1.69.1\9235ab343b80acd957b4bb8bd740b8272735ddb8\grpc-netty-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.tensorflow\tensorflow-lite-metadata\0.2.0\7dbe8f75ae5c0ef7093c43c3ac8b560bbc7ea4b6\tensorflow-lite-metadata-0.2.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.flatbuffers\flatbuffers-java\1.12.0\8201cc7b511177a37071249e891f2f2fea4b32e9\flatbuffers-java-1.12.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2c281df259447b90c8ecec5e55493c8a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-core\1.69.1\d9f6383e1903af6e9502e7c1c8e4fbe28a236321\grpc-core-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5f6bee54ba2c93bf641e5b3e2cbf7bd0\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-idea-proto\1.9.24\6cbed8e30d8dd9893288df9c90b0e63845484650\kotlin-gradle-plugin-idea-proto-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-stub\1.69.1\685c974e6717e6c1bcadd1b7461167d27f64c524\grpc-stub-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e04b255fcdfb73c07e118b32f695379b\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4854aa03a49d3e4fec925bcf6159ede5\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-util\1.69.1\8c3a9d835a78be9653e9ba92ceab430547924937\grpc-util-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-util-klib\1.9.24\d66bfd072c4f44b520afbed38641853770a819f8\kotlin-util-klib-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\03962e5fc9583d0a91f467605a1e3312\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-idea\1.9.24\83cf5d4acdbf6c1e7b32ca96cb79b96e4cce032e\kotlin-gradle-plugin-idea-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-klib-commonizer-api\1.9.24\77da2fbc04153a45bb3ef1370256128e5547b388\kotlin-klib-commonizer-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8b9708d1867f0cc36e5fbefcdfdb8cb7\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\59360ee7a2598950344f9d1188021ffd\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\b3c019857f8fbfe78ffb6ecf86d45e98\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\daf185b8bf996adac5d5a10b6374484a\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-native-utils\1.9.24\55c5f408d8febbc4858a5adfae9d2bec1853ae54\kotlin-native-utils-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e04b255fcdfb73c07e118b32f695379b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4854aa03a49d3e4fec925bcf6159ede5\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8b9708d1867f0cc36e5fbefcdfdb8cb7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-build-tools-api\1.9.24\7815f17102735413773a54a9baa742358225cf77\kotlin-build-tools-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\6cef2097ec271704604f6916c67a7ee5\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eed3b0e1f4de682a69c5329e96933d9d\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\b6766d969706d908a2c597ee7b69592d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\59360ee7a2598950344f9d1188021ffd\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2ee59e5d35f824da2c9f9b7c3e568faf\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\29cf1ecb52238783f5c83c7561e1a39b\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\b3c019857f8fbfe78ffb6ecf86d45e98\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\77ca9e85899c75f3c1866b1bab255ef3\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ccbd401c017611ed7dff980ca08139d5\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions\1.9.24\8f507629deb592b3378eea1797506bf35c370159\kotlin-android-extensions-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-compiler-embeddable\1.9.24\1e6b33f8a691420c1265349809192b66b7e56e8b\kotlin-scripting-compiler-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2ee59e5d35f824da2c9f9b7c3e568faf\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-context\1.69.1\acec56668f9e67775cfe43fdb9edd046e9426a2d\grpc-context-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\29cf1ecb52238783f5c83c7561e1a39b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-compiler-impl-embeddable\1.9.24\e1c67ba2d4663fbb142770f473230acc84ffdc07\kotlin-scripting-compiler-impl-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\169f57994db1870551da24848029f9ac\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4c2c187b520e8776748a667010f87c15\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-build-tools-api\1.9.24\7815f17102735413773a54a9baa742358225cf77\kotlin-build-tools-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-klib-commonizer-api\1.9.24\77da2fbc04153a45bb3ef1370256128e5547b388\kotlin-klib-commonizer-api-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8114b001ef81af48495bc22120363cec\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.jimfs\jimfs\1.1\8fbd0579dc68aba6186935cc1bee21d2f3e7ec1c\jimfs-1.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-util-klib\1.9.24\d66bfd072c4f44b520afbed38641853770a819f8\kotlin-util-klib-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\317214e4db1d9fbf100bfa8de2a20105\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-api\1.69.1\e95c782de0217180c9b25c99e605c4513f3272f1\grpc-api-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.grpc\grpc-protobuf-lite\1.69.1\40cc0d2c62b22c7c22056e17c1141cb714993ea9\grpc-protobuf-lite-1.69.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-idea\1.9.24\83cf5d4acdbf6c1e7b32ca96cb79b96e4cce032e\kotlin-gradle-plugin-idea-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\284e826832c30d732d71f7542ffbb465\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d2442b728fcdf66bbd919be583a16de2\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ce0fa0b81b70843dcf8bd8aa1fc3f9d1\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9644cc3a94f1e3cc3a6dc1dd27f33232\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\98d842c5d520157e7f2aa35f3cf8db9a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4d8ba6124ca24c5c5685e263894be8fd\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\317214e4db1d9fbf100bfa8de2a20105\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\168ca437d6681beaf3e9567d0974cac2\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\284e826832c30d732d71f7542ffbb465\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\98d842c5d520157e7f2aa35f3cf8db9a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9644cc3a94f1e3cc3a6dc1dd27f33232\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ce0fa0b81b70843dcf8bd8aa1fc3f9d1\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4d8ba6124ca24c5c5685e263894be8fd\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\168ca437d6681beaf3e9567d0974cac2\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.dagger\dagger\2.28.3\10d83810ef9e19714116ed518896c90c6606d633\dagger-2.28.3.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcutil-jdk18on\1.79\ecfc5aef97cc7676ea0de5c53c407b9f533f0ad5\bcutil-jdk18on-1.79.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\197e7ddcee9dcde88fa369c56bc75788\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\net.sf.kxml\kxml2\2.3.0\ccbc77a5fd907ef863c29f3596c6f54ffa4e9442\kxml2-2.3.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d5cdba276ea5f9f7f2b8c360cd1998ca\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.14\1194890e6f56ec29177673f2f12d0b8e627dec98\httpclient-4.5.14.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9136bcdc15b036a4eb620cfb0c834228\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-native-utils\1.9.24\55c5f408d8febbc4858a5adfae9d2bec1853ae54\kotlin-native-utils-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\197e7ddcee9dcde88fa369c56bc75788\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-compiler-impl-embeddable\1.9.24\e1c67ba2d4663fbb142770f473230acc84ffdc07\kotlin-scripting-compiler-impl-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fcf95fdbae72c0178f75bb27a6e25556\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\33.3.1-jre\852f8b363da0111e819460021ca693cacca3e8db\guava-33.3.1-jre.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d5cdba276ea5f9f7f2b8c360cd1998ca\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-android-extensions\1.9.24\8f507629deb592b3378eea1797506bf35c370159\kotlin-android-extensions-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\93165345da29932585d5abda15625b0f\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\51d6466ccfbe6f2ac505ca57e2238f21\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\342df1d3440d90ff9fef0c51f4cacf4c\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fcf95fdbae72c0178f75bb27a6e25556\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\080b12290de9771020d0338646e4ec00\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.16\51cf043c87253c9f58b539c9f7e44c8894223850\httpcore-4.4.16.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\342df1d3440d90ff9fef0c51f4cacf4c\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1f1ab08aaae54988fcb737685c166133\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\93165345da29932585d5abda15625b0f\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e10331dc352e32f72d870f784f40372f\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.sun.activation\javax.activation\1.2.0\bf744c1e2776ed1de3c55c8dac1057ec331ef744\javax.activation-1.2.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\080b12290de9771020d0338646e4ec00\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1201230e9f9047582a54538c27ee063b\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.9.24\78dab849090e6c5e2eadb6e59a11cdc28fb67a08\kotlin-compiler-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android\signflinger\8.13.0\13f035dd8e7e470ff8f3216a0b46333187f26df5\signflinger-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5356e486d9d961a3b691a9216a206a98\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fc19fe0542eda895b7ffaa6fc9ef467c\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e10331dc352e32f72d870f784f40372f\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools\annotations\31.13.0\a9a04a78f42fdb0276a0fc7fd538890f856a9753\annotations-31.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.bouncycastle\bcprov-jdk18on\1.79\4d8e2732bcee15f1db93df266c3f5b70ce5cac21\bcprov-jdk18on-1.79.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1201230e9f9047582a54538c27ee063b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.6.0\d18424ffb8bbfd036d71bcaab9b546858f2ef986\jna-platform-5.6.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-compiler-embeddable\1.9.24\1e6b33f8a691420c1265349809192b66b7e56e8b\kotlin-scripting-compiler-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\09caabdfb418e5841eaefb75d91255fc\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9637a66fbe430f3d0674a3c49ba83d5d\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.googlecode.juniversalchardet\juniversalchardet\1.0.3\cd49678784c46aa8789c060538e0154013bb421b\juniversalchardet-1.0.3.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fc19fe0542eda895b7ffaa6fc9ef467c\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\5356e486d9d961a3b691a9216a206a98\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android\zipflinger\8.13.0\b0422efcca01a66e2d7d2e07dbabcfd1f5cdfd6f\zipflinger-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\javax.annotation\javax.annotation-api\1.3.2\934c04d3cfef185a8008e7bf34331b79730a9d43\javax.annotation-api-1.3.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\9637a66fbe430f3d0674a3c49ba83d5d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e0b5fa4acd4eaf694bc24d1db9af6f47\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\252d13c5ee31f407e4607a4185afd9bf\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\1e5c2a2fbede8b963288b84dbf1e8c3a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\jakarta.xml.bind\jakarta.xml.bind-api\2.3.2\8d49996a4338670764d7ca4b85a1c4ccf7fe665d\jakarta.xml.bind-api-2.3.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.sun.istack\istack-commons-runtime\3.0.8\d6a97364045aa6b99bf2d3c566a3f98599c2d296\istack-commons-runtime-3.0.8.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jvnet.staxex\stax-ex\1.8.1\78011e483a21102fb4858f3e8f269a677e50aa23\stax-ex-1.8.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\63054207c820893e202b1e7954365784\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e0b5fa4acd4eaf694bc24d1db9af6f47\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8ac3f6a274b40211c2c2da03ad2d0831\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\09f07a3e4c837bddfb4ce875f2392e9b\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\536791360043f5aafc362cdf6edb2f47\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.sun.xml.fastinfoset\FastInfoset\1.2.16\4eb6a0adad553bf759ffe86927df6f3b848c8bea\FastInfoset-1.2.16.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\b5df6b58fd7a36dee3fcf74524edc5e5\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f28a87afd958923cc929509417d17cb0\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\63054207c820893e202b1e7954365784\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.glassfish.jaxb\txw2\2.3.2\ce5be7da2e442c25ec14c766cb60cb802741727b\txw2-2.3.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.auto.value\auto-value-annotations\1.6.2\ed193d86e0af90cc2342aedbe73c5d86b03fa09b\auto-value-annotations-1.6.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\d01f56b0ab878b6fff7a12efef0db4f7\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.30.0\ff171acb7fb9cbe2b9f50b391e1d52459d30ee62\error_prone_annotations-2.30.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\0008a7691291c633d655d5d579a60327\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\jakarta.activation\jakarta.activation-api\1.2.1\562a587face36ec7eff2db7f2fc95425c6602bc1\jakarta.activation-api-1.2.1.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\09f07a3e4c837bddfb4ce875f2392e9b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\536791360043f5aafc362cdf6edb2f47\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.android\annotations\4.1.1.4\a1678ba907bf92691d879fef34e1a187038f9259\annotations-4.1.1.4.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\8ac3f6a274b40211c2c2da03ad2d0831\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\37728d7caa827d44f8d2773d761d4c40\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\3.0.0\7399e65dd7e9ff3404f4535b2f017093bdb134c7\j2objc-annotations-3.0.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\852b30a1229445f2c6bc106358ba3c1d\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\0008a7691291c633d655d5d579a60327\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.24\aa9ba58d30e0aad7f1808fce9c541ea3760678d8\animal-sniffer-annotations-1.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.bitbucket.b_c\jose4j\0.9.5\e4ca26802488e6f16e24558d74ac8775a955fdd3\jose4j-0.9.5.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\750ac85588b4e57d95175fca3b570ab5\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\75dc32d68bc1cd7d759018f82198196d\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2c7b8d4768dd3c7b26910ecbe1cc3ff6\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\37728d7caa827d44f8d2773d761d4c40\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e44efe1663ab01c939244f72bb0b306b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\75dc32d68bc1cd7d759018f82198196d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\852b30a1229445f2c6bc106358ba3c1d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\750ac85588b4e57d95175fca3b570ab5\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\78f45f31dd55cc486f919673ec687182\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3b7e90d4b864c0786d1905f0a1096a38\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.perfmark\perfmark-api\0.27.0\f86f575a41b091786a4b027cd9c0c1d2e3fc1c01\perfmark-api-0.27.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\2c7b8d4768dd3c7b26910ecbe1cc3ff6\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.30\b5a4b6d16ab13e34a88fae84c35cd5d68cac922c\slf4j-api-1.7.30.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jdom\jdom2\2.0.6\6f14738ec2e9dd0011e343717fa624a10f8aab64\jdom2-2.0.6.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.43.0\9425eee39e56b116d2b998b7c2cebcbd11a3c98b\checker-qual-3.43.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.1.110.Final\e0849843eb5b1c036b12551baca98a9f7ff847a0\netty-codec-http2-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3b7e90d4b864c0786d1905f0a1096a38\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\78f45f31dd55cc486f919673ec687182\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.1.110.Final\9d05cd927209ea25bbf342962c00b8e5a828c2a4\netty-codec-http-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.110.Final\168db749c22652ee7fed1ebf7ec46ce856d75e51\netty-handler-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c0d9f03d82de9314369250ac4a5e74df\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.1.110.Final\b7fb401dd47c79e6b99f2319ac3b561c50c31c30\netty-handler-proxy-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\a8025d76b6718ef1e04ae925be76099c\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\957601277b319118070daa10c44f9133\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f3558d580d32e54cb896fccafb47502c\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\797436f2e9c8fca9cc207a30de556dc4\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\12ba9d30af29f1d6808ae9e0b152692b\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eabac628201e7847c12a7561c174cded\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.squareup\javawriter\2.5.0\81241ff7078ef14f42ea2a8995fa09c096256e6b\javawriter-2.5.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\92fd0e839eab57f552bcb89a37fde86a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\a8025d76b6718ef1e04ae925be76099c\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fac4513f1f092514b823b00304014ba2\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-annotations\1.9.24\cdee65760ea002d55b21e0be9965eea982278312\kotlin-gradle-plugin-annotations-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.android.tools.build\apksig\8.13.0\f005788487574c7d6ba23dea63bf8cb3a4f164a6\apksig-8.13.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\eabac628201e7847c12a7561c174cded\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\797436f2e9c8fca9cc207a30de556dc4\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\12ba9d30af29f1d6808ae9e0b152692b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.110.Final\a7096e7c0a25a983647909d7513f5d4943d589c0\netty-transport-native-unix-common-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dd4da28db715dcb2f80cfe9556220ec1\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\0735d7b932bb3c1f82e06dbcf9b20b99\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fac4513f1f092514b823b00304014ba2\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\957601277b319118070daa10c44f9133\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\92fd0e839eab57f552bcb89a37fde86a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-project-model\1.9.24\3f4faa3597b080350b68256e256f499d5fb9ba37\kotlin-project-model-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\05b76176ad07c2d68aaa044e8039a71d\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-client\1.9.24\2e099afd326c9d61474f95bf674fb749a8e150ca\kotlin-daemon-client-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.intellij.deps\trove4j\1.0.20200330\3afb14d5f9ceb459d724e907a21145e8ff394f02\trove4j-1.0.20200330.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f3558d580d32e54cb896fccafb47502c\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.9.24\86685b9c5e8d170925bd9ddbdc263374a6a73281\kotlin-daemon-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\ce44d42c587da8d9d8ac28d830caf8cc\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4295a28790eaab385402489ddc1da265\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-annotations\1.9.24\cdee65760ea002d55b21e0be9965eea982278312\kotlin-gradle-plugin-annotations-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.2\c4a06a64e650562f30b7bf9aaec1bfed43aca12b\failureaccess-1.0.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\87d5e466d3deb604e147286b2b94d1e6\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-common\1.9.24\48e672815d9b6bb7fcebb8c1bd2de0c449e4fb16\kotlin-scripting-common-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\068884b5c8d25b407b2d115d0c0f21f0\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-tooling-core\1.9.24\bdc01105250e7ecc8bbcf49a21805685cd557dda\kotlin-tooling-core-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\39d24e0c6d72d0887d78b66d560e051a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-jvm\1.9.24\f179cc31fb89102c0e229c23b7d852d9840e13c7\kotlin-scripting-jvm-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4295a28790eaab385402489ddc1da265\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4d7ea745a0cc7a67918c3a72b18b706c\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f0921bcc8a826b6ed7ec83fa543edb9a\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-util-io\1.9.24\f402c94b93eab99bb1af746126cf979c748064cf\kotlin-util-io-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e657e4fbc770d06919cf22d0906649e8\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\39d24e0c6d72d0887d78b66d560e051a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\4d7ea745a0cc7a67918c3a72b18b706c\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\76fcc51cd58485e6c8c893ca9bd19880\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\dea8848d170d43f2ba367a3821a84896\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin-idea-proto\1.9.24\6cbed8e30d8dd9893288df9c90b0e63845484650\kotlin-gradle-plugin-idea-proto-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\f0921bcc8a826b6ed7ec83fa543edb9a\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\e657e4fbc770d06919cf22d0906649e8\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\905b55e9e1cc6aabdcee269230d86278\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\c1d15e46e21b44151e46d57622b57e96\transformed\merge\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-project-model\1.9.24\3f4faa3597b080350b68256e256f499d5fb9ba37\kotlin-project-model-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.11\3acb4705652e16236558f0f4f2192cc33c3bd189\commons-codec-1.11.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\a03575aba23e72eed6f60851da830bb9\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\81b30189f3d7835f77266564fb1f5910\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3bd67d986e013a68594a6904334db72b\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.6.0\330f2244e9030119ab3030fc3fededc86713d9cc\jna-5.6.0.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.1.110.Final\4d54c8d5b95b14756043efb59b8c3e62ec67aa43\netty-codec-socks-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-client\1.9.24\2e099afd326c9d61474f95bf674fb749a8e150ca\kotlin-daemon-client-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fd5069788e9721a23891c3fc28534c30\transformed\analysis\instrumentation-hierarchy.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.110.Final\f1fa43b03e93ab88e805b6a4e3e83780c80b47d2\netty-codec-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\81b30189f3d7835f77266564fb1f5910\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\a03575aba23e72eed6f60851da830bb9\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-daemon-embeddable\1.9.24\86685b9c5e8d170925bd9ddbdc263374a6a73281\kotlin-daemon-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\fd5069788e9721a23891c3fc28534c30\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\8.14.3\transforms\3bd67d986e013a68594a6904334db72b\transformed\analysis\instrumentation-dependencies.bin because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-util-io\1.9.24\f402c94b93eab99bb1af746126cf979c748064cf\kotlin-util-io-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.110.Final\3d918a9ee057d995c362902b54634fc307132aac\netty-buffer-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.110.Final\b91f04c39ac14d6a29d07184ef305953ee6e0348\netty-transport-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-tooling-core\1.9.24\bdc01105250e7ecc8bbcf49a21805685cd557dda\kotlin-tooling-core-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-common\1.9.24\48e672815d9b6bb7fcebb8c1bd2de0c449e4fb16\kotlin-scripting-common-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-scripting-jvm\1.9.24\f179cc31fb89102c0e229c23b7d852d9840e13c7\kotlin-scripting-jvm-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.110.Final\ec361e7e025c029be50c55c8480080cabcbc01e7\netty-common-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for MergeInstrumentationAnalysisTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.110.Final\66c15921104cda0159b34e316541bc765dfaf3c0\netty-resolver-4.1.110.Final.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-gradle-plugin\1.9.24\b6f5f875b19f9240f2e83e00f6f2b9dff1ebc2c3\kotlin-gradle-plugin-1.9.24-gradle82.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for ExternalDependencyInstrumentingArtifactTransform: C:\Users\adnan\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-compiler-embeddable\1.9.24\78dab849090e6c5e2eadb6e59a11cdc28fb67a08\kotlin-compiler-embeddable-1.9.24.jar because:
+  Build cache is disabled
+  Caching not enabled.
+Caching disabled for Groovy DSL script compilation (proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\build.gradle' using BuildScriptTransformer.
+Caching disabled for Groovy DSL script compilation (cp_dsl) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling script 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\variables.gradle' using SubsetScriptTransformer.
+Caching disabled for Groovy DSL script compilation (dsl) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling script 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\variables.gradle' using BuildScriptTransformer.
+
+> Configure project :app
+Evaluating project ':app' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\build.gradle'.
+Caching disabled for Groovy DSL script compilation (cp_proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\build.gradle' using SubsetScriptTransformer.
+Caching disabled for Groovy DSL script compilation (proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\app\build.gradle' using BuildScriptTransformer.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+google-services.json not found, google-services plugin not applied. Push Notifications won't work
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-android
+Evaluating project ':capacitor-android' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\build.gradle'.
+Caching disabled for Groovy DSL script compilation (proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\build.gradle' using BuildScriptTransformer.
+Using default execution profile
+
+> Configure project :capacitor-cordova-android-plugins
+Evaluating project ':capacitor-cordova-android-plugins' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\build.gradle'.
+Caching disabled for Groovy DSL script compilation (proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\build.gradle' using BuildScriptTransformer.
+Using default execution profile
+WARNING: Using flatDir should be avoided because it doesn't support any meta-data formats.
+
+> Configure project :capacitor-splash-screen
+Evaluating project ':capacitor-splash-screen' using build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\build.gradle'.
+Caching disabled for Groovy DSL script compilation (proj) because:
+  Build cache is disabled
+  Not worth caching.
+Compiling build file 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\build.gradle' using BuildScriptTransformer.
+Using default execution profile
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\android\capacitor\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\android\capacitor-cordova-android-plugins\src\main\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+file or directory 'D:\DarkDEV\cryptospell\cryptospell game - Copy\node_modules\@capacitor\splash-screen\android\libs', not found
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':capacitor-android:preBuild', task ':capacitor-android:preDebugBuild', task ':capacitor-android:writeDebugAarMetadata', task ':capacitor-cordova-android-plugins:preBuild', task ':capacitor-cordova-android-plugins:preDebugBuild', task ':capacitor-cordova-android-plugins:writeDebugAarMetadata', task ':capacitor-splash-screen:preBuild', task ':capacitor-splash-screen:preDebugBuild', task ':capacitor-splash-screen:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':capacitor-android:processDebugNavigationResources', task ':capacitor-cordova-android-plugins:processDebugNavigationResources', task ':capacitor-splash-screen:processDebugNavigationResources', task ':app:processDebugNavigationResources', task ':app:compileDebugNavigationResources', task ':app:generateDebugResValues', task ':capacitor-android:generateDebugResValues', task ':capacitor-android:generateDebugResources', task ':capacitor-android:packageDebugResources', task ':capacitor-cordova-android-plugins:generateDebugResValues', task ':capacitor-cordova-android-plugins:generateDebugResources', task ':capacitor-cordova-android-plugins:packageDebugResources', task ':capacitor-splash-screen:generateDebugResValues', task ':capacitor-splash-screen:generateDebugResources', task ':capacitor-splash-screen:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':capacitor-android:extractDeepLinksDebug', task ':capacitor-android:processDebugManifest', task ':capacitor-cordova-android-plugins:extractDeepLinksDebug', task ':capacitor-cordova-android-plugins:processDebugManifest', task ':capacitor-splash-screen:extractDeepLinksDebug', task ':capacitor-splash-screen:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':capacitor-android:compileDebugLibraryResources', task ':capacitor-android:parseDebugLocalResources', task ':capacitor-android:generateDebugRFile', task ':capacitor-cordova-android-plugins:compileDebugLibraryResources', task ':capacitor-cordova-android-plugins:parseDebugLocalResources', task ':capacitor-cordova-android-plugins:generateDebugRFile', task ':capacitor-splash-screen:compileDebugLibraryResources', task ':capacitor-splash-screen:parseDebugLocalResources', task ':capacitor-splash-screen:generateDebugRFile', task ':app:processDebugResources', task ':capacitor-android:javaPreCompileDebug', task ':capacitor-android:compileDebugJavaWithJavac', task ':capacitor-android:bundleLibCompileToJarDebug', task ':capacitor-cordova-android-plugins:javaPreCompileDebug', task ':capacitor-cordova-android-plugins:compileDebugJavaWithJavac', task ':capacitor-cordova-android-plugins:bundleLibCompileToJarDebug', task ':capacitor-splash-screen:javaPreCompileDebug', task ':capacitor-splash-screen:compileDebugJavaWithJavac', task ':capacitor-splash-screen:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':capacitor-android:mergeDebugShaders', task ':capacitor-android:compileDebugShaders', task ':capacitor-android:generateDebugAssets', task ':capacitor-android:mergeDebugAssets', task ':capacitor-cordova-android-plugins:mergeDebugShaders', task ':capacitor-cordova-android-plugins:compileDebugShaders', task ':capacitor-cordova-android-plugins:generateDebugAssets', task ':capacitor-cordova-android-plugins:mergeDebugAssets', task ':capacitor-splash-screen:mergeDebugShaders', task ':capacitor-splash-screen:compileDebugShaders', task ':capacitor-splash-screen:generateDebugAssets', task ':capacitor-splash-screen:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':capacitor-splash-screen:bundleLibRuntimeToJarDebug', task ':capacitor-android:bundleLibRuntimeToJarDebug', task ':capacitor-cordova-android-plugins:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':capacitor-android:processDebugJavaRes', task ':capacitor-cordova-android-plugins:processDebugJavaRes', task ':capacitor-splash-screen:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':capacitor-splash-screen:bundleLibRuntimeToDirDebug', task ':capacitor-android:bundleLibRuntimeToDirDebug', task ':capacitor-cordova-android-plugins:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':capacitor-android:mergeDebugJniLibFolders', task ':capacitor-android:mergeDebugNativeLibs', task ':capacitor-android:copyDebugJniLibsProjectOnly', task ':capacitor-cordova-android-plugins:mergeDebugJniLibFolders', task ':capacitor-cordova-android-plugins:mergeDebugNativeLibs', task ':capacitor-cordova-android-plugins:copyDebugJniLibsProjectOnly', task ':capacitor-splash-screen:mergeDebugJniLibFolders', task ':capacitor-splash-screen:mergeDebugNativeLibs', task ':capacitor-splash-screen:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':capacitor-android:checkDebugAarMetadata', task ':capacitor-android:stripDebugDebugSymbols', task ':capacitor-android:copyDebugJniLibsProjectAndLocalJars', task ':capacitor-android:extractDebugAnnotations', task ':capacitor-android:extractDeepLinksForAarDebug', task ':capacitor-android:mergeDebugGeneratedProguardFiles', task ':capacitor-android:mergeDebugConsumerProguardFiles', task ':capacitor-android:prepareDebugArtProfile', task ':capacitor-android:prepareLintJarForPublish', task ':capacitor-android:mergeDebugJavaResource', task ':capacitor-android:syncDebugLibJars', task ':capacitor-android:bundleDebugAar', task ':capacitor-android:assembleDebug', task ':capacitor-cordova-android-plugins:checkDebugAarMetadata', task ':capacitor-cordova-android-plugins:stripDebugDebugSymbols', task ':capacitor-cordova-android-plugins:copyDebugJniLibsProjectAndLocalJars', task ':capacitor-cordova-android-plugins:extractDebugAnnotations', task ':capacitor-cordova-android-plugins:extractDeepLinksForAarDebug', task ':capacitor-cordova-android-plugins:mergeDebugGeneratedProguardFiles', task ':capacitor-cordova-android-plugins:mergeDebugConsumerProguardFiles', task ':capacitor-cordova-android-plugins:prepareDebugArtProfile', task ':capacitor-cordova-android-plugins:prepareLintJarForPublish', task ':capacitor-cordova-android-plugins:mergeDebugJavaResource', task ':capacitor-cordova-android-plugins:syncDebugLibJars', task ':capacitor-cordova-android-plugins:bundleDebugAar', task ':capacitor-cordova-android-plugins:assembleDebug', task ':capacitor-splash-screen:checkDebugAarMetadata', task ':capacitor-splash-screen:stripDebugDebugSymbols', task ':capacitor-splash-screen:copyDebugJniLibsProjectAndLocalJars', task ':capacitor-splash-screen:extractDebugAnnotations', task ':capacitor-splash-screen:extractDeepLinksForAarDebug', task ':capacitor-splash-screen:mergeDebugGeneratedProguardFiles', task ':capacitor-splash-screen:mergeDebugConsumerProguardFiles', task ':capacitor-splash-screen:prepareDebugArtProfile', task ':capacitor-splash-screen:prepareLintJarForPublish', task ':capacitor-splash-screen:mergeDebugJavaResource', task ':capacitor-splash-screen:syncDebugLibJars', task ':capacitor-splash-screen:bundleDebugAar', task ':capacitor-splash-screen:assembleDebug']
+Tasks that were excluded: []
+work action Parameters of IdentityTransform (Thread[Execution worker,5,main]) started.
+work action Parameters of DexingNoClasspathTransform (Thread[Execution worker,5,main]) started.
+work action Parameters of DexingOutputSplitTransform (Thread[Execution worker,5,main]) started.
+work action Parameters of ClassesDirToClassesTransform (Thread[Execution worker,5,main]) started.
+work action Parameters of DexingOutputSplitTransform (Thread[Execution worker,5,main]) started.
+Resolve mutations for :app:preBuild (Thread[Execution worker Thread 7,5,main]) started.
+:app:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+Invalidating in-memory cache of D:\DarkDEV\cryptospell\cryptospell game - Copy\android\.gradle\8.14.3\executionHistory\executionHistory.bin
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[Execution worker Thread 14,5,main]) started.
+:app:preDebugBuild (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 10,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 10,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :capacitor-android:preBuild (Thread[Execution worker Thread 2,5,main]) started.
+:capacitor-android:preBuild (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :capacitor-android:preBuild UP-TO-DATE
+Skipping task ':capacitor-android:preBuild' as it has no actions.
+Resolve mutations for :capacitor-android:preDebugBuild (Thread[Execution worker Thread 9,5,main]) started.
+:capacitor-android:preDebugBuild (Thread[Execution worker Thread 10,5,main]) started.
+
+> Task :capacitor-android:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-android:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-android:writeDebugAarMetadata (Thread[Execution worker Thread 7,5,main]) started.
+:capacitor-android:writeDebugAarMetadata (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-cordova-android-plugins:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+:capacitor-cordova-android-plugins:preBuild (Thread[Execution worker Thread 14,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:preBuild UP-TO-DATE
+Skipping task ':capacitor-cordova-android-plugins:preBuild' as it has no actions.
+Resolve mutations for :capacitor-cordova-android-plugins:preDebugBuild (Thread[Execution worker Thread 14,5,main]) started.
+:capacitor-cordova-android-plugins:preDebugBuild (Thread[Execution worker Thread 2,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-cordova-android-plugins:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-cordova-android-plugins:writeDebugAarMetadata (Thread[Execution worker Thread 2,5,main]) started.
+:capacitor-cordova-android-plugins:writeDebugAarMetadata (Thread[Execution worker,5,main]) started.
+
+> Task :capacitor-android:writeDebugAarMetadata
+Caching disabled for task ':capacitor-android:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':capacitor-android:writeDebugAarMetadata' is not up-to-date because:
+  Class path of task ':capacitor-android:writeDebugAarMetadata' has changed from 9f1b678b47e50a5921c25a600f6e6efb to adde464bce46e899a1dba802f64b5d44.
+work action resolve aar-metadata.properties (project :capacitor-android) (Thread[Execution worker Thread 7,5,main]) started.
+Resolve mutations for :capacitor-splash-screen:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+:capacitor-splash-screen:preBuild (Thread[Execution worker Thread 13,5,main]) started.
+
+> Task :capacitor-splash-screen:preBuild UP-TO-DATE
+Skipping task ':capacitor-splash-screen:preBuild' as it has no actions.
+Resolve mutations for :capacitor-splash-screen:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+:capacitor-splash-screen:preDebugBuild (Thread[Execution worker Thread 13,5,main]) started.
+
+> Task :capacitor-splash-screen:preDebugBuild UP-TO-DATE
+Skipping task ':capacitor-splash-screen:preDebugBuild' as it has no actions.
+Resolve mutations for :capacitor-splash-screen:writeDebugAarMetadata (Thread[Execution worker Thread 9,5,main]) started.
+:capacitor-splash-screen:writeDebugAarMetadata (Thread[Execution worker Thread 9,5,main]) started.
+
+> Task :capacitor-cordova-android-plugins:writeDebugAarMetadata
+Caching disabled for task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' is not up-to-date because:
+  Class path of task ':capacitor-cordova-android-plugins:writeDebugAarMetadata' has changed from 9f1b678b47e50a5921c25a600f6e6efb to adde464bce46e899a1dba802f64b5d44.
+work action resolve aar-metadata.properties (project :capacitor-cordova-android-plugins) (Thread[Execution worker,5,main]) started.
+Resolve mutations for :capacitor-android:processDebugNavigationResources (Thread[Execution worker Thread 6,5,main]) started.
+:capacitor-android:processDebugNavigationResources (Thread[Execution worker Thread 6,5,main]) started.
+
+> Task :capacitor-splash-screen:writeDebugAarMetadata
+Caching disabled for task ':capacitor-splash-screen:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Task ':capacitor-splash-screen:writeDebugAarMetadata' is not up-to-date because:
+  Class path of task ':capacitor-splash-screen:writeDebugAarMetadata' has changed from 9f1b678b47e50a5921c25a600f6e6efb to adde464bce46e899a1dba802f64b5d44.
+
+> Task :capacitor-android:processDebugNavigationResources
+Caching disabled for task ':capacitor-android:processDebugNavigationResources' because:
+  Build cache is disabled
+Task ':capacitor-android:processDebugNavigationResources' is not up-to-date because:
+  Class path of task ':capacitor-android:processDebugNavigationResources' has changed from 9f1b678b47e50a5921c25a600f6e6efb to adde464bce46e899a1dba802f64b5d44.
+work action resolve aar-metadata.properties (project :capacitor-splash-screen) (Thread[Execution worker Thread 6,5,main]) started.
+work action resolve debug (project :capacitor-android) (Thread[Execution worker Thread 5,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+:app:checkDebugAarMetadata (Thread[Execution worker Thread 5,5,main]) started.
+
+> Task :app:checkDebugAarMetadata FAILED
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.24/kotlin-stdlib-1.9.24.pom]
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.24/kotlin-stdlib-1.9.24.pom to C:\Users\adnan\.gradle\.tmp\gradle_download3958137398134792062bin
+Downloading https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.24/kotlin-stdlib-1.9.24.module to C:\Users\adnan\.gradle\.tmp\gradle_download12185935874963305285bin
+Resource missing. [HTTP GET: https://dl.google.com/dl/android/maven2/com/solana/mobile-wallet-adapter-client-lib/2.0.0-beta1/mobile-wallet-adapter-client-lib-2.0.0-beta1.pom]
+Resource missing. [HTTP GET: https://repo.maven.apache.org/maven2/com/solana/mobile-wallet-adapter-client-lib/2.0.0-beta1/mobile-wallet-adapter-client-lib-2.0.0-beta1.pom]
+
+[Incubating] Problems report is available at: file:///D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+   > Could not find com.solana:mobile-wallet-adapter-client-lib:2.0.0-beta1.
+     Searched in the following locations:
+       - https://dl.google.com/dl/android/maven2/com/solana/mobile-wallet-adapter-client-lib/2.0.0-beta1/mobile-wallet-adapter-client-lib-2.0.0-beta1.pom
+       - https://repo.maven.apache.org/maven2/com/solana/mobile-wallet-adapter-client-lib/2.0.0-beta1/mobile-wallet-adapter-client-lib-2.0.0-beta1.pom
+       - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/capacitor-cordova-android-plugins/src/main/libs/mobile-wallet-adapter-client-lib-2.0.0-beta1.jar
+       - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/capacitor-cordova-android-plugins/src/main/libs/mobile-wallet-adapter-client-lib.jar
+       - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/app/libs/mobile-wallet-adapter-client-lib-2.0.0-beta1.jar
+       - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/app/libs/mobile-wallet-adapter-client-lib.jar
+     Required by:
+         project :app
+
+* Try:
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:checkDebugAarMetadata'.
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:38)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.TypedResolveException: Could not resolve all files for configuration ':app:debugRuntimeClasspath'.
+	at org.gradle.api.internal.artifacts.ResolveExceptionMapper.mapFailure(ResolveExceptionMapper.java:73)
+	at org.gradle.api.internal.artifacts.ResolveExceptionMapper.mapFailures(ResolveExceptionMapper.java:65)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$DefaultResolutionHost.consolidateFailures(DefaultConfiguration.java:1931)
+	at org.gradle.api.internal.artifacts.configurations.ResolutionHost.rethrowFailuresAndReportProblems(ResolutionHost.java:75)
+	at org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollection.maybeThrowResolutionFailures(ResolutionBackedFileCollection.java:86)
+	at org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollection.visitContents(ResolutionBackedFileCollection.java:76)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0(CompositeFileCollection.java:112)
+	at org.gradle.api.internal.file.collections.UnpackingVisitor.add(UnpackingVisitor.java:66)
+	at org.gradle.api.internal.file.collections.UnpackingVisitor.add(UnpackingVisitor.java:91)
+	at org.gradle.api.internal.file.DefaultFileCollectionFactory$ResolvingFileCollection.visitChildren(DefaultFileCollectionFactory.java:306)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(CompositeFileCollection.java:112)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0(CompositeFileCollection.java:112)
+	at org.gradle.api.internal.tasks.PropertyFileCollection.visitChildren(PropertyFileCollection.java:48)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(CompositeFileCollection.java:112)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+	at org.gradle.internal.fingerprint.impl.DefaultFileCollectionSnapshotter.snapshot(DefaultFileCollectionSnapshotter.java:47)
+	at org.gradle.internal.execution.impl.DefaultInputFingerprinter$InputCollectingVisitor.visitInputFileProperty(DefaultInputFingerprinter.java:133)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.visitRegularInputs(TaskExecution.java:324)
+	at org.gradle.internal.execution.impl.DefaultInputFingerprinter.fingerprintInputProperties(DefaultInputFingerprinter.java:63)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.captureExecutionStateWithOutputs(AbstractCaptureStateBeforeExecutionStep.java:109)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.lambda$captureExecutionState$0(AbstractCaptureStateBeforeExecutionStep.java:74)
+	at org.gradle.internal.execution.steps.BuildOperationStep$1.call(BuildOperationStep.java:37)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.BuildOperationStep.operation(BuildOperationStep.java:34)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.captureExecutionState(AbstractCaptureStateBeforeExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:62)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.solana:mobile-wallet-adapter-client-lib:2.0.0-beta1.
+Searched in the following locations:
+  - https://dl.google.com/dl/android/maven2/com/solana/mobile-wallet-adapter-client-lib/2.0.0-beta1/mobile-wallet-adapter-client-lib-2.0.0-beta1.pom
+  - https://repo.maven.apache.org/maven2/com/solana/mobile-wallet-adapter-client-lib/2.0.0-beta1/mobile-wallet-adapter-client-lib-2.0.0-beta1.pom
+  - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/capacitor-cordova-android-plugins/src/main/libs/mobile-wallet-adapter-client-lib-2.0.0-beta1.jar
+  - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/capacitor-cordova-android-plugins/src/main/libs/mobile-wallet-adapter-client-lib.jar
+  - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/app/libs/mobile-wallet-adapter-client-lib-2.0.0-beta1.jar
+  - file:/D:/DarkDEV/cryptospell/cryptospell%20game%20-%20Copy/android/app/libs/mobile-wallet-adapter-client-lib.jar
+Required by:
+    project :app
+
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+6 actionable tasks: 6 executed
+Watched directory hierarchies: [D:\DarkDEV\cryptospell\cryptospell game - Copy\android]
+
+BUILD FAILED in 28s
