@@ -6,7 +6,7 @@ interface NavBarProps {
   isNftHolder?: boolean;
 }
 
-const NavBar: React.FC<NavBarProps> = ({ activeTab = "mint", onTabClick, isNftHolder }) => {
+const NavBar: React.FC<NavBarProps> = ({ activeTab = "play", onTabClick, isNftHolder }) => {
   const navItems = [
     {
       id: "challenges",
@@ -71,22 +71,30 @@ const NavBar: React.FC<NavBarProps> = ({ activeTab = "mint", onTabClick, isNftHo
       label: "NFT",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="nav-icon nft-icon">
+          {/* NFT Card-style background */}
+          <rect x="2" y="4" width="20" height="15" rx="3" fill="url(#nftGrad)" stroke="url(#nftStroke)" strokeWidth="1.5"/>
+          <path d="M2 12h20" stroke="url(#nftStroke)" strokeWidth="0.5" opacity="0.5"/>
+          
           {/* Beaming "NFT" Text */}
           <text 
             x="50%" 
-            y="55%" 
+            y="11.5" 
             textAnchor="middle" 
             dominantBaseline="middle" 
             className="nft-text-beaming"
             style={{ 
               fontFamily: "'Barlow Condensed', sans-serif", 
               fontWeight: 900, 
-              fontSize: '15px',
+              fontSize: '8px',
               letterSpacing: '0.05em'
             }}
           >
             NFT
           </text>
+          
+          {/* Small decorative lines below text */}
+          <rect x="5" y="15" width="14" height="1" rx="0.5" fill="#a78bfa" opacity="0.4"/>
+          <rect x="5" y="17" width="8" height="1" rx="0.5" fill="#a78bfa" opacity="0.2"/>
           
           {/* NFT Holder Indicator Badge */}
           {isNftHolder && (
@@ -98,10 +106,17 @@ const NavBar: React.FC<NavBarProps> = ({ activeTab = "mint", onTabClick, isNftHo
           )}
 
           <defs>
+            <linearGradient id="nftGrad" x1="2" y1="4" x2="22" y2="19" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#312e81"/>
+              <stop offset="1" stopColor="#1e1b4b"/>
+            </linearGradient>
+            <linearGradient id="nftStroke" x1="2" y1="4" x2="22" y2="19" gradientUnits="userSpaceOnUse">
+              <stop stopColor="#a78bfa"/>
+              <stop offset="1" stopColor="#6366f1"/>
+            </linearGradient>
             <linearGradient id="nftTextGrad" x1="0" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse">
-              <stop stopColor="#c4b5fd"/>
-              <stop offset="0.5" stopColor="#a78bfa"/>
-              <stop offset="1" stopColor="#818cf8"/>
+              <stop stopColor="#fff"/>
+              <stop offset="1" stopColor="#c4b5fd"/>
             </linearGradient>
           </defs>
         </svg>
